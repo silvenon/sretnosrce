@@ -1,9 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="hr">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>My Web App</title>
+    <title>Love</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -13,7 +13,7 @@
     <!-- https://github.com/typekit/webfontloader -->
     <script>
       WebFontConfig = {
-        google: { families: [ 'Open+Sans:400italic,400,300,700:latin' ] }
+        google: { families: [ 'Radley:400,400italic:latin,latin-ext', 'Open+Sans:300,300italic,700:latin,latin-ext' ] }
       };
       (function() {
         var wf = document.createElement('script');
@@ -25,37 +25,9 @@
         s.parentNode.insertBefore(wf, s);
       })();
     </script>
-
-    <!-- demo styles, feel free to delete -->
-    <style>
-      .loader {
-        color: #E02D2D;
-      }
-
-      .container {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-
-      h1 {
-        font-weight: 300;
-        font-size: 2.5em;
-      }
-
-      .icon-heart {
-        display: block;
-        width: 200px;
-        height: 200px;
-        color: #E02D2D;
-      }
-    </style>
   </head>
   <body>
     <div id="content"></div>
-
     <script src="scripts/bundle.js"></script>
   </body>
 </html>

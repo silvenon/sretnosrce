@@ -1,0 +1,16 @@
+.header {
+  padding: 1em;
+  background: color(primary);
+  color: #fff;
+
+  &-title {
+    font-family: 'radley', baskerville, georgia, serif;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 400;
+
+    .heart {
+      font-style: normal;
+    }
+  }
+}
