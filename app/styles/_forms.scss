@@ -20,15 +20,15 @@
 
   &-feedback {
     height: 23px;
-    padding: 0 0.25em;
-    border: 1px solid transparent;
+    padding: 0 0.75em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
     border-top: 0;
     font-size: 13px;
   }
 
   &-group.error &-feedback {
     background: rgba(color(danger), 0.05);
-    border-color: rgba(color(danger), 0.25);
     color: color(danger);
   }
 
