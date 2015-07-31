@@ -3,10 +3,16 @@
   margin: 0;
   padding: 1rem 2rem;
   border: 0;
+  border-radius: 0.25em;
   text-decoration: none;
+  cursor: pointer;
 
   &:focus {
     outline: none;
+  }
+
+  &[disabled] {
+    opacity: 0.2;
   }
 
   @each $type, $color in $colors {
@@ -18,6 +24,10 @@
       &:focus {
         background: shade($color, 15%);
         color: #fff;
+      }
+
+      &[disabled] {
+        background: $color;
       }
     }
   }

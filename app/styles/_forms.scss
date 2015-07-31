@@ -1,11 +1,43 @@
 .form {
   &-control {
+    display: block;
+    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0.5em;
     border: 1px solid rgba(#000, 0.25);
+    border-radius: 0.25em;
 
     &:focus {
-      border: 1px solid color(primary);
+      border-color: color(primary);
+      outline: 0;
     }
+  }
+
+  &-group.error &-control {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  &-feedback {
+    height: 23px;
+    padding: 0 0.25em;
+    border: 1px solid transparent;
+    border-top: 0;
+    font-size: 13px;
+  }
+
+  &-group.error &-feedback {
+    background: rgba(color(danger), 0.05);
+    border-color: rgba(color(danger), 0.25);
+    color: color(danger);
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  &-status {
+    display: inline-block;
+    padding: 0 1em;
   }
 }

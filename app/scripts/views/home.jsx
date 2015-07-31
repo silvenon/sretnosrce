@@ -1,4 +1,5 @@
 import React from 'react/addons';
+import Form from '../components/form';
 
 export default React.createClass({
   render() {
@@ -15,6 +16,7 @@ export default React.createClass({
 
         <main className="main">
           <div className="container text">
+            <Form />
             <h2>Što je ovo?</h2>
             <p>Paaa…</p>
             <p>Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili <a href="https://en.wikipedia.org/wiki/Podcast">podcasta</a>, pa bih htio podijeliti to znanje, jer bih volio da sam neke stvari znao prije.</p>
