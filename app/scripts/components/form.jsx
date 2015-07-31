@@ -1,6 +1,7 @@
 import React from 'react/addons';
 import {Form} from 'formsy-react';
 import Field from './field';
+import Checkbox from './checkbox';
 import fetch from '../helpers/fetch';
 import params from 'query-params';
 import Icon from './icon';
@@ -123,6 +124,13 @@ export default React.createClass({
           label="Gotcha"
           name="_gotcha"
           hidden /> */}
+
+        <p>Smijem li ovo pitanje jednom u budućnosti (anonimno) staviti na ovu web stranicu?</p>
+
+        <Checkbox
+          name="public"
+          label="Može"
+          type="checkbox" />
 
         <button
           className="btn btn-primary"

@@ -36,6 +36,12 @@
     resize: vertical;
   }
 
+  &-checkbox {
+    input {
+      margin-right: 0.5em;
+    }
+  }
+
   &-status {
     display: inline-block;
     vertical-align: middle;
