@@ -39,12 +39,22 @@ export default React.createClass({
         status: true,
         loaded: true
       });
+      this.clear();
     }).catch(res => {
       this.setState({
         status: false,
         loaded: true
       });
+      this.clear();
     });
+  },
+
+  clear() {
+    setTimeout(() => {
+      this.setState({
+        status: null
+      });
+    }, 3000);
   },
 
   render() {
