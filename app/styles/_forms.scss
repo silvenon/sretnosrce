@@ -38,6 +38,21 @@
 
   &-status {
     display: inline-block;
+    vertical-align: middle;
     padding: 0 1em;
+
+    &.loading {
+      .loader {
+        color: rgba(#000, 0.2);
+      }
+    }
+
+    &.error {
+      color: color(danger);
+    }
+
+    &.success {
+      color: color(success);
+    }
   }
 }

@@ -1475,6 +1475,7 @@
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   display: inline-block;
+  vertical-align: middle;
   -webkit-animation: line-scale-pulse-out-rapid 0.9s -0.5s infinite cubic-bezier(.11, .49, .38, .78);
           animation: line-scale-pulse-out-rapid 0.9s -0.5s infinite cubic-bezier(.11, .49, .38, .78); }
   .line-scale-pulse-out-rapid > div:nth-child(2), .line-scale-pulse-out-rapid > div:nth-child(4) {

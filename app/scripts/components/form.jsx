@@ -3,11 +3,14 @@ import {Form} from 'formsy-react';
 import Field from './field';
 import fetch from '../helpers/fetch';
 import params from 'query-params';
+import Icon from './icon';
+import Loader from './loader';
 
 export default React.createClass({
   getInitialState() {
     return {
-      canSubmit: true
+      canSubmit: true,
+      loaded: true
     };
   },
 
@@ -20,6 +23,10 @@ export default React.createClass({
   },
 
   send(model, resetForm, invalidateForm) {
+    this.setState({
+      loaded: false
+    });
+
     fetch('http://formspree.io/matija.marohnic@gmail.com', {
       method: 'post',
       headers: {
@@ -29,16 +36,50 @@ export default React.createClass({
       body: params.encode(model)
     }).then(res => {
       this.setState({
-        status: 'Poruka poslana!'
+        status: true,
+        loaded: true
       });
     }).catch(res => {
       this.setState({
-        status: 'Dogodila se neka greška, ali moguće je da je poruka svejedno poslana ;)'
+        status: false,
+        loaded: true
       });
     });
   },
 
   render() {
+    let status;
+
+    if (!this.state.loaded) {
+      status = (
+        <div className="form-status loading">
+          <Loader />
+        </div>
+      );
+    } else if (this.state.status === true) {
+      status = (
+        <div className="form-status success">
+          <Icon
+            symbol="check"
+            role="img"
+            title="Uspjeh"
+            width="24"
+            height="32" />
+        </div>
+      );
+    } else if (this.state.status === false) {
+      status = (
+        <div className="form-status error">
+          <Icon
+            symbol="x"
+            role="img"
+            title="Greška"
+            width="20"
+            height="32" />
+        </div>
+      );
+    }
+
     return (
       <Form
         ref="form"
@@ -80,9 +121,7 @@ export default React.createClass({
           Pošalji
         </button>
 
-        <div className="form-status">
-          {this.state.status}
-        </div>
+        {status}
 
       </Form>
     );
