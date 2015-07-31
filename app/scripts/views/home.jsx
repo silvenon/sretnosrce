@@ -13,7 +13,7 @@ export default React.createClass({
               <Icon
                 symbol="heart"
                 role="presentation"
-                height="64"
+                width="64"
                 height="64" />
               <span>Srce</span>
             </h1>
