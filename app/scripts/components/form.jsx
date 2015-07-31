@@ -1,8 +1,8 @@
 import React from 'react/addons';
 import {Form} from 'formsy-react';
 import Field from './field';
-import $ from 'jquery';
 import fetch from '../helpers/fetch';
+import params from 'query-params';
 
 export default React.createClass({
   getInitialState() {
@@ -20,33 +20,22 @@ export default React.createClass({
   },
 
   send(model, resetForm, invalidateForm) {
-    $.ajax({
-      url: 'http://formspree.io/matija.marohnic@gmail.com',
+    fetch('http://formspree.io/matija.marohnic@gmail.com', {
       method: 'post',
-      data: model,
-      dataType: 'json'
-    }).done(res => {
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
+      },
+      body: params.encode(model)
+    }).then(res => {
       this.setState({
         status: 'Poruka poslana!'
       });
-    }).fail(res => {
+    }).catch(res => {
       this.setState({
         status: 'Dogodila se neka greška, ali moguće je da je poruka svejedno poslana ;)'
       });
     });
-
-    // fetch('//formspree.io/matija.marohnic@gmail.com', {
-    //   method: 'post',
-    //   headers: {
-    //     'Accept': 'application/json',
-    //     'Content-Type': 'application/json'
-    //   },
-    //   body: JSON.stringify(model)
-    // }).then(function (res) {
-    //   console.log(res);
-    // }).catch(function (res) {
-    //   console.error(res);
-    // });
   },
 
   render() {
@@ -83,13 +72,6 @@ export default React.createClass({
           label="Gotcha"
           name="_gotcha"
           hidden /> */}
-
-        <Field
-          label="Next"
-          name="_next"
-          value="/"
-          readOnly
-          hidden />
 
         <button
           className="btn btn-primary"
