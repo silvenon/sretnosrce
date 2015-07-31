@@ -22,7 +22,7 @@ export default React.createClass({
             <p>Čak i ne :D</p>
             <p>Ne volim rješavati logičke zagonetke ili sudoku, ali volim riješavati ljubavne (i seksualne) probleme. Oduvijek sam htio probati to kao hobi, pa eto mi prilike :)</p>
             <p>Usluga je, naravno, <strong>besplatna</strong>. Htio bih vidjeti kamo će to otići.</p>
-            <h2>A tko ti misliš da jesi?</h2>
+            <h2>Koje su tvoje kvalifikacije?</h2>
             <p>Definicija “savjeta” je:</p>
             <blockquote cite="http://hjp.novi-liber.hr/index.php?show=search_by_id&id=dlZmXhI%3D">
               <p>preporuka što i kako treba raditi ili kako postupiti u određenom slučaju</p>
@@ -40,7 +40,7 @@ export default React.createClass({
             </ul>
             <p>Što više informacija imam, to ću moći dati bolji savjet.</p>
             <h2>Ali te stvari su privatne!</h2>
-            <p>Obećajem da neću nikome reći ;) Ovo je tvoj ispušni ventil, svi ponekad trebamo pričati s nekime o našim ljubavnim problemima, a teško je dobiti dobar savjet ako ne podijelimo nešto privatno.</p>
+            <p>Obećajem da neću nikome reći ;) Svi ponekad trebamo pričati s nekime o našim ljubavnim problemima, a teško je dobiti dobar savjet ako ne podijelimo nešto privatno.</p>
           </div>
         </main>
       </div>
