@@ -8,7 +8,7 @@
     "test": "mocha test/spec",
     "build": "npm test && GULP_ENV=production gulp",
     "preview": "gulp serve:dist",
-    "deploy": "aws --profile ljubav s3 sync dist s3://ljubav --region eu-west-1 --size-only --delete"
+    "deploy": "aws --profile sretnosrce s3 sync dist s3://sretnosrce --region eu-west-1 --size-only --delete"
   },
   "browser": {
     "fetch": "whatwg-fetch"

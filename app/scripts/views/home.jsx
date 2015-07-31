@@ -1,5 +1,6 @@
 import React from 'react/addons';
 import Form from '../components/form';
+import Icon from '../components/icon';
 
 export default React.createClass({
   render() {
@@ -8,8 +9,13 @@ export default React.createClass({
         <header className="header">
           <div className="container">
             <h1 className="header-title">
-              <span className="heart">❤︎</span>
-              <span>Ljubavni savjeti</span>
+              <span>Sretno</span>
+              <Icon
+                symbol="heart"
+                role="presentation"
+                height="64"
+                height="64" />
+              <span>Srce</span>
             </h1>
           </div>
         </header>
