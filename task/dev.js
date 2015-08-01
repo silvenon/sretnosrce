@@ -2,6 +2,7 @@ import gulp from 'gulp';
 import loadPlugins from 'gulp-load-plugins';
 import browserSync from 'browser-sync';
 import autoprefixer from 'autoprefixer-core';
+import history from 'connect-history-api-fallback';
 
 const $ = loadPlugins();
 const bs = browserSync.create();
@@ -64,7 +65,8 @@ gulp.task('connect:dev', ['scripts', 'styles'], done => {
     port: 9000,
     open: false,
     server: {
-      baseDir: ['.tmp', 'app']
+      baseDir: ['.tmp', 'app'],
+      middleware: [history()]
     }
   }, done);
 });

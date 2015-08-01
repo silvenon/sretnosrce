@@ -2,6 +2,7 @@ import gulp from 'gulp';
 import loadPlugins from 'gulp-load-plugins';
 import browserSync from 'browser-sync';
 import del from 'del';
+import history from 'connect-history-api-fallback';
 
 const $ = loadPlugins();
 const bs = browserSync.create();
@@ -44,7 +45,8 @@ gulp.task('serve:dist', done => {
     notify: false,
     port: 9000,
     server: {
-      baseDir: ['dist']
+      baseDir: ['dist'],
+      middleware: [history()]
     },
     ui: false
   }, done);

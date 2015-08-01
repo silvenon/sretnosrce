@@ -12,7 +12,8 @@ const {
   Route,
   DefaultRoute,
   NotFoundRoute,
-  RouteHandler
+  RouteHandler,
+  HistoryLocation
 } = Router;
 
 const App = React.createClass({
@@ -36,6 +37,6 @@ const routes = (
   </Route>
 );
 
-Router.run(routes, Handler => {
+Router.run(routes, HistoryLocation, Handler => {
   React.render(<Handler />, document.getElementById('content'));
 });
