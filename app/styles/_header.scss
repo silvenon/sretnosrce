@@ -16,12 +16,26 @@
   background: color(primary);
   color: #fff;
 
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   &-title {
+    display: block;
     margin: 0;
     font-family: $font-family-heading;
     text-transform: uppercase;
     font-size: 3.5em;
     font-weight: 400;
+
+    &,
+    &:hover,
+    &:focus {
+      color: #fff;
+      text-decoration: none;
+    }
 
     .icon {
       display: inline-block;

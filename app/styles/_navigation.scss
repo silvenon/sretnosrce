@@ -1,0 +1,23 @@
+.navigation {
+  font-size: 24px;
+
+  a {
+    color: rgba(#fff, 0.75);
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: #fff;
+    }
+
+    .icon,
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .icon {
+      margin-right: 0.25em;
+    }
+  }
+}
