@@ -1,6 +1,4 @@
 import React from 'react/addons';
-import {Link} from 'react-router';
-import Icon from '../components/icon';
 
 export default React.createClass({
   render() {
