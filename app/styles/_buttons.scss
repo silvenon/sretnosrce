@@ -7,6 +7,11 @@
   text-decoration: none;
   cursor: pointer;
 
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
   &:focus {
     outline: none;
   }
@@ -15,13 +20,17 @@
     opacity: 0.2;
   }
 
-  > * {
-    display: inline-block;
-    vertical-align: middle;
-  }
-
   .icon {
-    margin-right: 0.25em;
+    position: relative;
+    bottom: 3px;
+
+    &:first-child {
+      margin-right: 0.25em;
+    }
+
+    &:last-child {
+      margin-left: 0.25em;
+    }
   }
 
   @each $type, $color in $colors {
@@ -37,6 +46,25 @@
 
       &[disabled] {
         background: $color;
+      }
+    }
+  }
+
+  @each $type, $color in $colors {
+    &-inverse-#{$type} {
+      background: rgba(#fff, 0.9);
+      box-shadow: 2px 2px 0 rgba(#000, 0.5);
+      color: $color;
+
+      &:hover,
+      &:focus,
+      &.active {
+        background: #fff;
+        color: $color;
+      }
+
+      &[disabled] {
+        background: #fff;
       }
     }
   }

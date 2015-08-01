@@ -17,13 +17,13 @@ export default React.createClass({
             <span>Srce</span>
           </Link>
           <nav className="navigation">
-            <Link className="navigation-item" to="/pitaj">
+            <Link className="btn btn-inverse-primary navigation-item" to="/pitaj">
+              <span>Pitaj me nešto</span>
               <Icon
-                symbol="question"
+                symbol="arrow-right"
                 role="presentation"
-                width="24"
-                height="24" />
-              <span>Pitaj</span>
+                width="20"
+                height="32" />
             </Link>
           </nav>
         </div>
