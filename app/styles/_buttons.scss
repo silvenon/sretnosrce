@@ -15,6 +15,15 @@
     opacity: 0.2;
   }
 
+  > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .icon {
+    margin-right: 0.25em;
+  }
+
   @each $type, $color in $colors {
     &-#{$type} {
       background: $color;

@@ -1,4 +1,6 @@
 import React from 'react/addons';
+import {Link} from 'react-router';
+import Icon from '../components/icon';
 
 export default React.createClass({
   render() {
@@ -11,6 +13,14 @@ export default React.createClass({
           <h2>Ti se šališ?</h2>
           <p>Čak i ne :D</p>
           <p>Ne volim rješavati logičke zagonetke ili sudoku, ali volim riješavati ljubavne (i seksualne) probleme. Oduvijek sam htio probati to kao hobi, pa eto mi prilike :)</p>
+          <Link to="/pitaj" className="btn btn-lg btn-primary">
+            <Icon
+              symbol="question"
+              role="presentation"
+              width="16"
+              height="16" />
+            <span>Pitaj me nešto</span>
+          </Link>
           <p>Usluga je, naravno, <strong>besplatna</strong>. To je moj eksperiment.</p>
           <h2>Ti si neki ljubavni stručnjak?</h2>
           <p>Ne, ali izgleda da ne moraš biti kvalificiran da daješ savjete, jer je definicija “savjeta”:</p>
