@@ -10,9 +10,6 @@
     "preview": "gulp serve:dist",
     "deploy": "aws --profile sretnosrce s3 sync dist s3://sretnosrce.org --region eu-west-1 --size-only --delete"
   },
-  "browser": {
-    "fetch": "whatwg-fetch"
-  },
   "browserify": {
     "transform": [
       "babelify",
