@@ -1,6 +1,7 @@
 import React from 'react/addons';
 import Router from 'react-router';
 import Header from './components/header';
+import Facts from './components/facts';
 import Home from './views/home';
 import Ask from './views/ask';
 import NotFound from './views/not-found';
@@ -24,6 +25,7 @@ const App = React.createClass({
       <div>
         <Header />
         <RouteHandler />
+        <Facts />
       </div>
     );
   }
