@@ -115,7 +115,7 @@ export default React.createClass({
 
         <Field
           name="message"
-          label="Poruka"
+          label="Pitanje"
           type="textarea"
           rows={7}
           required />
