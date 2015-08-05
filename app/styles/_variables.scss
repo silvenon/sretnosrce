@@ -6,6 +6,12 @@ $colors: (
   danger: #BF0C43
 );
 
+$breakpoints: (
+  small: 568px,
+  medium: 1024px,
+  large: 1200px
+);
+
 // type
 $font-family-heading: 'unica one', 'arial narrow', 'helvetica neue', helvetica, arial, sans-serif;
 

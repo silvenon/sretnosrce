@@ -6,6 +6,18 @@
   @return map-get($bc, $key);
 }
 
+@function breakpoint($key, $type: min) {
+  $result: map-get($breakpoints, $key);
+
+  @if $type == min {
+    @return $result;
+  } @else if $type == max {
+    @return $result - 1px;
+  } @else {
+    @warn "#{$type} is not a valid breakpoint type.";
+  }
+}
+
 // http://www.smashingmagazine.com/2014/06/12/sassy-z-index-management-for-complex-layouts/
 @function z($element) {
   @return index($elements, $element);

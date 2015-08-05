@@ -11,9 +11,7 @@ export default React.createClass({
             <span>Sretno</span>
             <Icon
               symbol="heart"
-              role="presentation"
-              width="64"
-              height="64" />
+              role="presentation" />
             <span>Srce</span>
           </Link>
           <nav className="navigation">

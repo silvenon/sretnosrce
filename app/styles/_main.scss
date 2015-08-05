@@ -1,3 +1,5 @@
 .main {
-  padding-bottom: 2em;
+  @media (min-width: breakpoint(small)) {
+    padding-bottom: 2em;
+  }
 }

@@ -1,20 +1,6 @@
 .navigation {
   font-size: 24px;
 
-  a {
-    // color: rgba(#fff, 0.75);
-
-    &:hover,
-    &:focus,
-    &.active {
-      // color: #fff;
-    }
-
-    .icon {
-      margin-right: 0.25em;
-    }
-  }
-
   .btn {
     padding-top: 0;
     padding-bottom: 0;
