@@ -53,7 +53,7 @@
   @each $type, $color in $colors {
     &-inverse-#{$type} {
       background: rgba(#fff, 0.9);
-      box-shadow: 2px 2px 0 rgba(#000, 0.5);
+      box-shadow: 2px 2px 0 rgba(#000, 0.25);
       color: $color;
 
       &:hover,
