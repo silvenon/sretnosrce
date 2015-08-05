@@ -48,6 +48,13 @@ gulp.task('lint', () => {
     .pipe($.eslint.failAfterError());
 });
 
+gulp.task('content', () => {
+  return gulp.src('app/content/**/*.md')
+    .pipe($.markdown({smartypants: true}))
+    .pipe(gulp.dest('.tmp/content'))
+    .pipe(bs.stream({once: true}));
+});
+
 gulp.task('styles', () => {
   return gulp.src('app/styles/**/*.scss')
     .pipe($.plumber())
@@ -59,7 +66,7 @@ gulp.task('styles', () => {
     .pipe(bs.stream());
 });
 
-gulp.task('connect:dev', ['scripts', 'styles'], done => {
+gulp.task('connect:dev', ['scripts', 'content', 'styles'], done => {
   bs.init({
     notify: false,
     port: 9000,
@@ -77,6 +84,7 @@ gulp.task('watch:dev', ['connect:dev'], () => {
     'app/images/**/*'
   ]).on('change', bs.reload);
 
+  gulp.watch('app/content/**/*.md', ['content']);
   gulp.watch('app/styles/**/*.scss', ['styles']);
 });
 

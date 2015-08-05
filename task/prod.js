@@ -7,9 +7,12 @@ import history from 'connect-history-api-fallback';
 const $ = loadPlugins();
 const bs = browserSync.create();
 
-gulp.task('html', ['scripts', 'styles'], () => {
+gulp.task('html', ['scripts', 'content', 'styles'], () => {
   gulp.src('app/index.html')
     .pipe(gulp.dest('dist'));
+
+  gulp.src('.tmp/content/**/*.html')
+    .pipe(gulp.dest('dist/content'));
 
   return gulp.src([
     '.tmp/scripts/*.js',
