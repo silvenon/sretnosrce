@@ -23,9 +23,7 @@ const App = React.createClass({
   render() {
     return (
       <div>
-        <Header>
-          <Facts />
-        </Header>
+        <Header />
         <RouteHandler />
       </div>
     );
