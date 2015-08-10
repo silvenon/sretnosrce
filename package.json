@@ -64,6 +64,8 @@
     "react-portal": "^0.6.0",
     "react-router": "^0.13.3",
     "svg4everybody": "jonathantneal/svg4everybody",
+    "unique-random": "^1.0.0",
+    "velocity-animate": "^1.2.2",
     "whatwg-fetch": "^0.9.0"
   }
 }

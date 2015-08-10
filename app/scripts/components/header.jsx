@@ -3,6 +3,10 @@ import {Link} from 'react-router';
 import Icon from '../components/icon';
 
 export default React.createClass({
+  propTypes: {
+    children: React.PropTypes.node
+  },
+
   render() {
     return (
       <header className="header">
@@ -24,6 +28,9 @@ export default React.createClass({
                 height="32" />
             </Link>
           </nav>
+
+          {this.props.children}
+
         </div>
       </header>
     );

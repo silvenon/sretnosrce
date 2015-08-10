@@ -8,7 +8,7 @@
   padding-top: 5em;
 
   @media (min-width: breakpoint(small)) {
-    padding-top: 4em;
+    padding-top: 5em;
   }
 }
 
@@ -23,8 +23,12 @@
 
   .container {
     text-align: center;
+  }
 
-    @media (min-width: breakpoint(small)) {
+  @media (min-width: breakpoint(small)) {
+    border-bottom: 2px solid shade(color(primary), 20%);
+
+    .container {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -81,5 +85,13 @@
         box-shadow: none;
       }
     }
+  }
+
+  .facts {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(100%);
   }
 }
