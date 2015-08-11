@@ -1,3 +1,7 @@
+---
+layout: site
+---
+
 ## Što je ovo?
 
 Paaa...
