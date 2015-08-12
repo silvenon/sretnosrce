@@ -1,4 +1,2 @@
-node_modules
-.tmp
-dist
-*.log
+_site
+.sass-cache

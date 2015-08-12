@@ -1,0 +1,32 @@
+.form {
+  margin-top: 1em;
+
+  &-control {
+    display: block;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid rgba(#000, 0.25);
+    border-radius: 0.25em;
+
+    &:focus {
+      border-color: color(primary);
+      outline: 0;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  &-checkbox {
+    p {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  &-actions {
+    margin-top: 1em;
+  }
+}

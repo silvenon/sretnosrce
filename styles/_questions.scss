@@ -1,0 +1,23 @@
+.question {
+  margin-bottom: 1em;
+
+  & + & {
+    margin-top: 2em;
+    border-top: 1px solid rgba(#000, 0.1);
+  }
+
+  &-header {
+    margin-bottom: 1.5em;
+  }
+
+  &-subject {
+    margin-top: 0;
+  }
+
+  &-time {
+    display: block;
+    margin-top: -0.25em;
+    font-size: 14px;
+    color: rgba(#000, 0.5);
+  }
+}
