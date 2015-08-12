@@ -1,0 +1,24 @@
+// your colors
+$colors: (
+  primary: #A51A41,
+  secondary: #84BFC3,
+  success: #8EAC00,
+  danger: #BF0C43
+);
+
+$breakpoints: (
+  small: 568px,
+  medium: 1024px,
+  large: 1200px
+);
+
+// type
+$font-family-heading: 'unica one', 'arial narrow', 'helvetica neue', helvetica, arial, sans-serif;
+
+// brand colors
+$bc: (
+  facebook: #3b5998
+);
+
+// used for calculating z-index
+$elements: main, navigation;

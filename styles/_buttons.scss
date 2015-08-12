@@ -1,0 +1,71 @@
+.btn {
+  display: inline-block;
+  margin: 0;
+  padding: 1rem 2rem;
+  border: 0;
+  border-radius: 0.25em;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &[disabled] {
+    opacity: 0.2;
+  }
+
+  .icon {
+    position: relative;
+    bottom: 3px;
+
+    &:first-child {
+      margin-right: 0.25em;
+    }
+
+    &:last-child {
+      margin-left: 0.25em;
+    }
+  }
+
+  @each $type, $color in $colors {
+    &-#{$type} {
+      background: $color;
+      color: #fff;
+
+      &:hover,
+      &:focus {
+        background: shade($color, 15%);
+        color: #fff;
+      }
+
+      &[disabled] {
+        background: $color;
+      }
+    }
+  }
+
+  @each $type, $color in $colors {
+    &-inverse-#{$type} {
+      background: rgba(#fff, 0.9);
+      box-shadow: 2px 2px 0 rgba(#000, 0.25);
+      color: $color;
+
+      &:hover,
+      &:focus,
+      &.active {
+        background: #fff;
+        color: $color;
+      }
+
+      &[disabled] {
+        background: #fff;
+      }
+    }
+  }
+}

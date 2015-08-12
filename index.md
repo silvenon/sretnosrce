@@ -18,7 +18,7 @@ Definicija savjeta je:
 
 > preporuka što i kako treba raditi ili kako postupiti u određenom slučaju
 >
-> <footer>[Hrvatski jezični portal]</footer>
+> [Hrvatski jezični portal]
 
 Dakle, svatko je kvalificiran dati savjete. Ipak, moje se znanje ne temelji samo na iskustvu, čitao sam poznate knjige o ljudskoj seksualnosti kao [Sex at Dawn] i [What Do Women Want?] te već nekoliko godina slušam podcast [Savage Lovecast], gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
 

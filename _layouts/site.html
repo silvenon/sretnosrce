@@ -7,14 +7,52 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="fb:admins" content="{{ site.fb_id }}">
-    <link rel="stylesheet" href="{{ 'style.css' | prepend: site.baseurl }}">
+    <!-- load the web font asynchronously with Web Font Loader -->
+    <!-- https://github.com/typekit/webfontloader -->
+    <script>
+      WebFontConfig = {
+        google: { families: [ 'Unica+One::latin,latin-ext', 'Open+Sans:300,300italic,600:latin,latin-ext' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+    <link rel="stylesheet" href="{{ '/styles/main.css' | prepend: site.baseurl }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
   </head>
   <body>
-    {% include header.html %}
-    <div id="content">
-      {{ content }}
-    </div>
+    <header class="header">
+      <div class="container">
+        <a class="header-title" href="{{ '/' | prepend: site.baseurl }}">
+          <span>Sretno</span><svg class="icon icon-heart" viewbox="0 0 1024 1024"><title>Heart</title><path fill="currentColor" d="M752 64c-103.912 0-194.2 58.276-240 143.92-45.802-85.644-136.090-143.92-240-143.92-150.222 0-272 121.78-272 272 0 368 512 624 512 624s512-256 512-624c0-150.22-121.778-272-272-272z"></path></svg><span>Srce</span>
+        </a>
+
+        <nav class="navigation">
+          <a class="navigation-item btn btn-inverse-primary" href="{{ '/pitaj' | prepend: site.baseurl }}">
+            <span>Pitaj me nešto</span>
+            <svg class="icon icon-arrow-right" viewbox="0 0 640 1024" role="presentation" width="20" height="32">
+              <title>Arrow right</title>
+              <path fill="currentColor" d="M640 512l-384-320v192h-256v256h256v192l384-320z"></path>
+            </svg>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container text">
+
+        {{ content }}
+
+      </div>
+    </main>
 
     <script type="text/javascript">
       var _gauges = _gauges || [];

@@ -11,4 +11,8 @@ fb_id: 1224905490
 gauges_id: 55c5e80592c6ac728500b314
 
 # Build settings
+port: 9000
 markdown: kramdown
+sass:
+  sass_dir: styles
+  style: compressed
