@@ -1,0 +1,23 @@
+---
+layout: site
+title: Pitanja
+---
+
+{% for question in site.data.questions %}
+<article class="question">
+  <header class="question-header">
+    <h2 class="question-subject">{{ question.subject }}</h2>
+    <time class="question-time" datetime="{{ question.time | date_to_xmlschema }}">
+      {{ question.time | date_to_string }}
+    </time>
+  </header>
+
+  <blockquote class="question-question">
+    {{ question.question | markdownify }}
+  </blockquote>
+
+  <div class="question-answer">
+    {{ question.answer | markdownify }}
+  </div>
+</article>
+{% endfor %}

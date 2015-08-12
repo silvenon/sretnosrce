@@ -5,26 +5,31 @@
 }
 
 .main {
-  padding-top: 5em;
+  padding-top: 1em;
 
-  @media (min-width: breakpoint(small)) {
+  @media (min-width: breakpoint(medium)) {
     padding-top: 4em;
   }
 }
 
 .header {
-  position: fixed;
-  z-index: 10;
-  top: 0;
-  left: 0;
-  right: 0;
+  padding-top: 0.5em;
   background: color(primary);
   color: #fff;
+
+  @media (min-width: breakpoint(medium)) {
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 0;
+  }
 
   .container {
     text-align: center;
 
-    @media (min-width: breakpoint(small)) {
+    @media (min-width: breakpoint(medium)) {
       @include display(flex);
       @include justify-content(space-between);
       @include align-items(center);
@@ -40,10 +45,6 @@
     text-transform: uppercase;
     line-height: 1;
     font-weight: 400;
-
-    @media (min-width: breakpoint(small)) {
-      font-size: 2.5em;
-    }
 
     @media (min-width: breakpoint(medium)) {
       font-size: 3em;
@@ -63,7 +64,7 @@
       @include transform(scale(0.75));
       @include animation(pulsate 1s infinite);
 
-      @media (min-width: breakpoint(small)) {
+      @media (min-width: breakpoint(medium)) {
         width: 64px;
         height: 64px;
       }
@@ -71,11 +72,23 @@
   }
 
   .navigation {
-    @media (max-width: breakpoint(small, max)) {
+    &-item {
+      &:not(.btn) {
+        display: block;
+        color: #fff;
+
+        @media (min-width: breakpoint(medium)) {
+          display: inline-block;
+        }
+      }
+    }
+
+    @media (max-width: breakpoint(medium, max)) {
       margin-top: 0.25em;
-      margin-bottom: -0.5em;
 
       .btn {
+        position: relative;
+        top: 0.5em;
         background: #fff;
         border: 2px solid color(primary);
         box-shadow: none;

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
     <meta property="fb:admins" content="{{ site.fb_id }}">
     <!-- load the web font asynchronously with Web Font Loader -->
@@ -35,6 +35,7 @@
         </a>
 
         <nav class="navigation">
+          <a class="navigation-item" href="{{ '/pitanja' | prepend: site.baseurl }}">Dosadašnja pitanja</a>
           <a class="navigation-item btn btn-inverse-primary" href="{{ '/pitaj' | prepend: site.baseurl }}">
             <span>Pitaj me nešto</span>
             <svg class="icon icon-arrow-right" viewbox="0 0 640 1024" role="presentation" width="20" height="32">
