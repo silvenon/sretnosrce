@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sretnosrce.org" # the base hostname & protocol for your site
 
 fb_id: 1224905490
+gauges_id: 55c5e80592c6ac728500b314
 
 # Build settings
 markdown: kramdown
