@@ -1,0 +1,13 @@
+# Site settings
+title: Sretno Srce
+description: > # this means to ignore newlines until "baseurl:"
+  Ako vas muči neki ljubavni ili seksualni problem, možda vam mogu dati
+  neki koristan savjet. Rado pomažem ljudima u takvim situacijama,
+  jer je ljubav komplicirana i ponekad nam treba pomoć.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sretnosrce.org" # the base hostname & protocol for your site
+
+fb_id: 1224905490
+
+# Build settings
+markdown: kramdown
