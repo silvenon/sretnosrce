@@ -6,6 +6,7 @@
 
   h1, h2 {
     font-family: $font-family-heading;
+    font-weight: 400;
     text-transform: uppercase;
 
     .icon {
@@ -14,15 +15,10 @@
   }
 
   h1 {
-    font-size: 3em;
-  }
-
-  h2 {
-    margin-top: 0.5em;
-    margin-bottom: 0;
+    margin: 0;
+    margin-top: 0.25em;
     font-size: 1.75em;
-    line-height: 1.25;
-    font-weight: 400;
+    line-height: 1.25em;
 
     @media (min-width: breakpoint(small)) {
       font-size: 2em;
@@ -30,6 +26,21 @@
 
     @media (min-width: breakpoint(medium)) {
       font-size: 2.5em;
+    }
+  }
+
+  h2 {
+    margin: 0;
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    line-height: 1.25;
+
+    @media (min-width: breakpoint(small)) {
+      font-size: 1.75em;
+    }
+
+    @media (min-width: breakpoint(medium)) {
+      font-size: 2em;
     }
   }
 

@@ -3,21 +3,19 @@ layout: site
 title: Pitanja
 ---
 
-{% for question in site.data.questions %}
-<article class="question">
-  <header class="question-header">
-    <h2 class="question-subject">{{ question.subject }}</h2>
-    <time class="question-time" datetime="{{ question.time | date_to_xmlschema }}">
-      {{ question.time | date_to_string }}
-    </time>
-  </header>
+{% for post in site.posts %}
+  <article class="post">
+    <header class="post-header">
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <time class="post-time" datetime="{{ post.date | date_to_xmlschema }}">
+        {{ post.date | date_to_string }}
+      </time>
+    </header>
 
-  <blockquote class="question-question">
-    {{ question.question | markdownify }}
-  </blockquote>
+    <div class="post-content">
 
-  <div class="question-answer">
-    {{ question.answer | markdownify }}
-  </div>
-</article>
+      {{ post.excerpt }}
+
+    </div>
+  </article>
 {% endfor %}

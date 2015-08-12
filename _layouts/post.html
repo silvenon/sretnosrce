@@ -1,0 +1,18 @@
+---
+layout: site
+---
+
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <time class="post-time" datetime="{{ page.date | date_to_xmlschema }}">
+      {{ page.date | date_to_string }}
+    </time>
+  </header>
+
+  <div class="post-content">
+
+    {{ content }}
+
+  </div>
+</article>
