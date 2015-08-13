@@ -13,11 +13,13 @@ title: Pitanja
     </header>
 
     <div class="post-content">
+      <blockquote>
 
-      {{ post.excerpt }}
+        {{ post.excerpt | strip_html | truncatewords: 100 | markdownify }}
 
+      </blockquote>
     </div>
 
-    <a class="btn btn-sm btn-primary" href="{{ post.url }}">Vidi odgovor</a>
+    <a class="btn btn-sm btn-primary" href="{{ post.url }}">Puno pitanje i odgovor</a>
   </article>
 {% endfor %}
