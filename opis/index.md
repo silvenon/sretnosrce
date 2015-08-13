@@ -22,7 +22,7 @@ Definicija savjeta je:
 >
 > [Hrvatski jezični portal]
 
-Dakle, svatko je kvalificiran dati savjete. Ipak, moje se znanje ne temelji samo na iskustvu, čitao sam poznate knjige o ljudskoj seksualnosti kao [Sex at Dawn] i [What Do Women Want?] te već nekoliko godina slušam podcast [Savage Lovecast], gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
+Dakle, svatko je kvalificiran dati savjete. Ipak, moje se znanje ne temelji samo na iskustvu, čitao sam poznate knjige o ljudskoj seksualnosti kao [Sex at Dawn] i [What Do Women Want?] te već nekoliko godina slušam podcast [Savage Lovecast] (koji me inspirirao za ovaj projekt), gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
 
 Mislim da je fizički dio veze **jednako** bitan kao i emocionalni. Odgojeni smo s idejom da "seks nije toliko bitan" i da se na njemu "uvijek može poraditi", negirajući da postoji nešto što se zove *nekompatibilnost* i da je ponekad najbolje potražiti drugu osobu s kojom ćeš biti sretniji uz puno manje truda.
 
