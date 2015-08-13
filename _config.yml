@@ -8,6 +8,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: http://sretnosrce.org # the base hostname & protocol for your site
 
 fb_id: 1224905490
+fb_username: matijamm
 gauges_id: 55c5e80592c6ac728500b314
 
 # Build settings
@@ -17,3 +18,12 @@ markdown: kramdown
 sass:
   sass_dir: styles
   style: compressed
+
+# http://stackoverflow.com/a/23555679/1247274
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts   # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
