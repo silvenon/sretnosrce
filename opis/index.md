@@ -1,5 +1,6 @@
 ---
 layout: site
+title: Što je ovo?
 ---
 
 ## Što je ovo?

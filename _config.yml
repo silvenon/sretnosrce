@@ -4,6 +4,9 @@ description: Ako te muči neki ljubavni ili seksualni problem, možda ti mogu da
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://sretnosrce.org # the base hostname & protocol for your site
 
+gems:
+  - jekyll-redirect-from
+
 fb_id: 1224905490
 fb_username: matijamm
 fb_page: pages/Sretno-Srce/132649877076108

@@ -131,6 +131,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-redirect-from
 
 BUNDLED WITH
    1.10.5
