@@ -10,7 +10,7 @@
     <meta property="fb:admins" content="{{ site.fb_id }}">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | append: '/' }}">
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
     <meta property="og:image" content="{{ '/og.png' | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:image:width" content="300">
@@ -36,7 +36,7 @@
       })();
     </script>
     <link rel="stylesheet" href="{{ '/styles/main.css' | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url | append: '/' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
   </head>
   <body>
