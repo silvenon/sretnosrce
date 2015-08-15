@@ -16,10 +16,10 @@
     <meta property="og:image:height" content="300">
     {% if page.is_post %}
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | append: '/' }}">
+    <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url | append: '/' }}">
     <meta property="og:type" content="article">
     <meta property="article:author" content="https://www.facebook.com/{{ site.fb_username }}">
     <meta property="article:publisher" content="https://www.facebook.com/{{ site.fb_page }}">
-    <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url | append: '/' }}">
     {% else %}
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
