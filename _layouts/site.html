@@ -51,7 +51,13 @@
         </a>
 
         <nav class="navigation">
-          <a class="navigation-item" href="{{ '/opis' | prepend: site.baseurl }}">Što je ovo?</a>
+          <a class="navigation-item btn btn-inverse-primary" href="{{ '/opis' | prepend: site.baseurl }}">
+            <span>Što je ovo</span>
+            <svg class="icon icon-question" viewBox="0 0 1024 1024" role="presentation" width="20" height="20">
+              <title>Question</title>
+              <path fill="currentColor" d="M384 832h192v192h-192zM800 64c53.020 0 96 42.98 96 96v288l-320 192v128h-192v-192l320-192v-128h-512v-192h608z"></path>
+            </svg>
+          </a>
           <a class="navigation-item btn btn-inverse-primary" href="{{ '/pitaj' | prepend: site.baseurl }}">
             <span>Pitaj me nešto</span>
             <svg class="icon icon-arrow-right" viewbox="0 0 640 1024" role="presentation" width="20" height="32">

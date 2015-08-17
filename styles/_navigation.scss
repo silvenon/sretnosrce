@@ -8,8 +8,16 @@
 
     .icon {
       position: relative;
-      bottom: 1px;
-      margin-left: 0.5em;
+      margin-left: 0.25em;
+
+      &-question {
+        bottom: 3px;
+        margin-left: 0;
+      }
+
+      &-arrow-right {
+        bottom: 1px;
+      }
     }
   }
 }

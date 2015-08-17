@@ -83,10 +83,12 @@
       }
     }
 
-    @media (max-width: breakpoint(medium, max)) {
-      margin-top: 0.25em;
+    .btn {
+      @media (max-width: breakpoint(small, max)) {
+        margin-top: 0.25em;
+      }
 
-      .btn {
+      @media (max-width: breakpoint(medium, max)) {
         position: relative;
         top: 0.5em;
         background: #fff;
