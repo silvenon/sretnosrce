@@ -22,7 +22,7 @@ Zovem se Matija Marohnić, završio sam Informacijske i komunikacijske znanosti 
 
 U slobodno vrijeme sviram gitaru, crtam i [živciram] ljude sa svojim statusima :P Ali to je ok, volim pokretati rasprave u koje se svatko može uključiti :)
 
-I jako volim sushi, to je najsavršenija hrana na svijetu. Ako hoćeš samnom na sushi, uvijek sam za.
+Ok, dosta o meni...
 
 ## Moji savjeti
 
