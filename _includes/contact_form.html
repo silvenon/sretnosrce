@@ -1,26 +1,29 @@
 <form class="form" action="http://formspree.io/matija.marohnic@gmail.com" method="post">
-  <label class="form-label" for="email">Email
-    <input class="form-control" id="email" name="email" type="email" required>
+  <label class="form-label">
+    <span class="form-optional">Email</span>
+    <input class="form-control" name="email" type="email">
   </label>
 
-  <label class="form-label" for="_subject">Naslov
-    <input class="form-control" id="_subject" name="_subject" type="text" required>
+  <label class="form-label">
+    <span class="form-required">Naslov</span>
+    <input class="form-control" name="_subject" type="text">
   </label>
 
-  <label class="form-label" for="message">Pitanje
-    <textarea class="form-control" id="message" name="message" rows="7" required></textarea>
+  <label class="form-label">
+    <span class="form-required">Pitanje</span>
+    <textarea class="form-control" name="message" rows="7" required></textarea>
   </label>
-
-  <div class="form-checkbox">
-    <p>Smijem li ovo pitanje (anonimno) objaviti na ovoj web stranici?</p>
-    <label class="form-label">
-      <input name="public" type="checkbox" checked> Može
-    </label>
-  </div>
 
   <input type="hidden" name="_next" value="{{ '/hvala' | prepend: site.baseurl }}" />
 
   <input type="text" name="_gotcha" hidden>
+
+  <div class="form-checkbox">
+    <label class="form-label">
+      <p><input name="public" type="checkbox" checked> “Pristajem na to da objaviš pitanje na ovoj web stranici.” (Bez brige, neću objaviti tvoj email.)</p>
+    </label>
+    <p class="form-description">Ako upišeš svoju email adresu, moći ćeš birati želiš li da objavim pitanje.</p>
+  </div>
 
   <div class="form-actions">
     <button class="btn btn-primary" type="submit">Pošalji</button>

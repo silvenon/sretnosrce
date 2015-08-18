@@ -16,14 +16,45 @@
     }
   }
 
+  &-required {
+    &:after {
+      content: '*';
+      margin-left: 0.1em;
+      color: color(primary);
+    }
+  }
+
+  & &-description {
+    margin-top: -1em;
+    font-size: 14px;
+    color: rgba(#000, 0.5);
+  }
+
+  & &-terms {
+    margin-bottom: -1em;
+    font-size: 14px;
+    color: rgba(#000, 0.5);
+  }
+
   textarea {
     resize: vertical;
   }
 
   &-checkbox {
+    margin-bottom: 1em;
+
     p {
       margin-bottom: 0.5em;
+
+      span {
+        font-size: 14px;
+        color: rgba(#000, 0.5);
+      }
     }
+  }
+
+  &-checkbox &-description {
+    margin-top: -0.5em;
   }
 
   &-actions {

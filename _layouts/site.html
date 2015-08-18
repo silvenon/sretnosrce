@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | escape | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | prepend: site.baseurl }}">
     <meta property="fb:admins" content="{{ site.fb_id }}">
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:site_name" content="{{ site.title }}">
@@ -76,6 +76,8 @@
 
       </div>
     </main>
+
+    <script src="{{ '/scripts/form.js' | prepend: site.baseurl }}"></script>
 
     <script type="text/javascript">
       var _gauges = _gauges || [];
