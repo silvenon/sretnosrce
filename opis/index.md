@@ -20,7 +20,7 @@ Usluga je, naravno, besplatna. To je moj eksperiment ;)
 
 Zovem se Matija Marohnić, završio sam informacijske i komunikacijske znanosti na Filozofskom fakultetu, a sad radim kao web dizajner u firmi [Unity]. Pišem puno na [Facebooku] i [Twitteru] o ljubavi, kodiranju, seksu, feminizmu, umjetnosti, seksizmu, gay pravima itd. Ako me želiš pratiti, bolje na Facebooku jer sam na Twitteru uglavnom geeky i pišem o kodiranju :D
 
-U slobodno vrijeme sviram gitaru, crtam i [živciram] ljude svojim statusima :P Ali to je ok, volim pokretati rasprave u koje se svatko može uključiti :)
+U slobodno vrijeme sviram gitaru, crtam, jedem sushi i vodim rasprave na socijalnim mrežama.
 
 Ok, dosta o meni...
 
@@ -51,7 +51,6 @@ Računaj na sljedeće:
 [unity]: http://unity.hr/
 [facebooku]: https://www.facebook.com/{{ site.fb_username }}
 [twitteru]: https://twitter.com/{{ site.twitter_username }}
-[živciram]: https://www.facebook.com/matijamm/posts/10207727315320610
 [Hrvatski jezični portal]: http://hjp.novi-liber.hr/index.php?show=search_by_id&id=dlZmXhI%3D
 [Sex at Dawn]: http://amzn.com/0061707813
 [What Do Women Want?]: http://amzn.com/0061906093
