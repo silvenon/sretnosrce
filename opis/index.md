@@ -4,7 +4,7 @@ title: Što je ovo?
 excerpt: Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili podcasta pa bih htio podijeliti to znanje jer bih volio da sam neke stvari znao prije.
 ---
 
-## Što je ovo?
+# Što je ovo?
 
 Paaa...
 
@@ -14,13 +14,23 @@ Neki ljudi vole rješavati logičke zagonetke ili sudoku, a ja ljubavne i seksua
 
 Usluga je, naravno, besplatna. To je moj eksperiment ;)
 
+<img src="/images/bio.jpg" width="240" height="320" alt="slika mene kako čitam knjigu">
+
+## Ponešto o meni
+
+Zovem se Matija Marohnić, završio sam Informacijske i komunikacijske znanosti na Filozofskom fakultetu, a sad radim kao web dizajner u firmi [Unity]. Pišem puno na [Facebooku] i [Twitteru] o ljubavi, kodiranju, seksu, feminizmu, umjetnosti, seksizmu, gay pravima itd. Ako me želiš pratiti, bolje na Facebooku, jer na Twitteru uglavnom geeky i pišem o kodiranju :D
+
+U slobodno vrijeme sviram gitaru, crtam i [živciram] ljude sa svojim statusima :P Ali to je ok, volim pokretati rasprave u koje se svatko može uključiti :)
+
+I jako volim sushi, to je najsavršenija hrana na svijetu. Ako hoćeš samnom na sushi, uvijek sam za.
+
 ## Moji savjeti
 
 Definicija savjeta je:
 
 > preporuka što i kako treba raditi ili kako postupiti u određenom slučaju
 >
-> [Hrvatski jezični portal]
+> —[Hrvatski jezični portal]
 
 Dakle, svatko je kvalificiran dati savjete. Ipak, moje se znanje ne temelji samo na iskustvu, čitao sam poznate knjige o ljudskoj seksualnosti kao [Sex at Dawn] i [What Do Women Want?] te već nekoliko godina slušam podcast [Savage Lovecast] (koji me inspirirao za ovaj projekt), gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
 
@@ -38,6 +48,10 @@ Računaj na sljedeće:
 Što više informacija imam, to ću moći dati bolji savjet.
 
 [podcasta]: https://en.wikipedia.org/wiki/Podcast
+[unity]: http://unity.hr/
+[facebooku]: https://www.facebook.com/{{ site.fb_username }}
+[twitteru]: https://twitter.com/{{ site.twitter_username }}
+[živciram]: https://www.facebook.com/matijamm/posts/10207727315320610
 [Hrvatski jezični portal]: http://hjp.novi-liber.hr/index.php?show=search_by_id&id=dlZmXhI%3D
 [Sex at Dawn]: http://amzn.com/0061707813
 [What Do Women Want?]: http://amzn.com/0061906093
