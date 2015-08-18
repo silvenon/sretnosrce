@@ -18,9 +18,9 @@ Usluga je, naravno, besplatna. To je moj eksperiment ;)
 
 ## Ponešto o meni
 
-Zovem se Matija Marohnić, završio sam Informacijske i komunikacijske znanosti na Filozofskom fakultetu, a sad radim kao web dizajner u firmi [Unity]. Pišem puno na [Facebooku] i [Twitteru] o ljubavi, kodiranju, seksu, feminizmu, umjetnosti, seksizmu, gay pravima itd. Ako me želiš pratiti, bolje na Facebooku, jer na Twitteru uglavnom geeky i pišem o kodiranju :D
+Zovem se Matija Marohnić, završio sam informacijske i komunikacijske znanosti na Filozofskom fakultetu, a sad radim kao web dizajner u firmi [Unity]. Pišem puno na [Facebooku] i [Twitteru] o ljubavi, kodiranju, seksu, feminizmu, umjetnosti, seksizmu, gay pravima itd. Ako me želiš pratiti, bolje na Facebooku jer sam na Twitteru uglavnom geeky i pišem o kodiranju :D
 
-U slobodno vrijeme sviram gitaru, crtam i [živciram] ljude sa svojim statusima :P Ali to je ok, volim pokretati rasprave u koje se svatko može uključiti :)
+U slobodno vrijeme sviram gitaru, crtam i [živciram] ljude svojim statusima :P Ali to je ok, volim pokretati rasprave u koje se svatko može uključiti :)
 
 Ok, dosta o meni...
 
