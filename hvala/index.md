@@ -1,7 +1,8 @@
 ---
 layout: site
+excerpt: Tvoje pitanje je poslano. Odgovorit ću ti unutar par dana.
 ---
 
-## Hvala
+# Hvala
 
-Tvoje pitanje je poslano. Odgovorit ću ti što prije ;)
+Tvoje pitanje je poslano. Odgovorit ću ti u roku od par dana :wink:

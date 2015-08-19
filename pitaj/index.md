@@ -6,6 +6,6 @@ excerpt: Kako bih te mogao lakše osloviti, možeš si izmisliti pseudonim, kao 
 
 # Pitaj me nešto
 
-Kako bih te mogao lakše osloviti, možeš si izmisliti pseudonim, kao "zbunjen", "znatiželjna", "maslačak" itd. (Ja se zovem Matija, ako ti treba za pisanje pitanja.)
+Kako bih te mogao lakše osloviti, možeš si izmisliti pseudonim, kao "zbunjen", "znatiželjna", "maslačak" itd.
 
 {% include contact_form.html %}
