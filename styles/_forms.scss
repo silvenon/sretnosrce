@@ -1,6 +1,10 @@
 .form {
   margin-top: 1em;
 
+  &-label {
+    @include user-select(none);
+  }
+
   &-control {
     display: block;
     width: 100%;
@@ -16,13 +20,13 @@
     }
   }
 
-  &-required {
-    &:after {
-      content: '*';
-      margin-left: 0.1em;
-      color: color(primary);
-    }
-  }
+  // &-required {
+  //   &:after {
+  //     content: '*';
+  //     margin-left: 0.1em;
+  //     color: color(primary);
+  //   }
+  // }
 
   & &-description {
     margin-top: -1em;

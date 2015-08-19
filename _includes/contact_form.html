@@ -3,11 +3,7 @@
     <span class="form-optional">Email</span>
     <input class="form-control" name="email" type="email">
   </label>
-
-  <label class="form-label">
-    <span class="form-required">Naslov</span>
-    <input class="form-control" name="_subject" type="text">
-  </label>
+  <p class="form-description">Nije obavezno.</p>
 
   <label class="form-label">
     <span class="form-required">Pitanje</span>
@@ -20,9 +16,12 @@
 
   <div class="form-checkbox">
     <label class="form-label">
-      <p><input name="public" type="checkbox" checked> “Pristajem na to da objaviš pitanje na ovoj web stranici.” (Bez brige, neću objaviti tvoj email.)</p>
+      <p><input name="public" type="checkbox" checked> “Pristajem na to da objaviš pitanje na ovoj web stranici.”</p>
     </label>
-    <p class="form-description">Ako upišeš svoju email adresu, moći ćeš birati želiš li da objavim pitanje.</p>
+    <p class="form-description">
+      <span class="email-visible">Bez brige, neću objaviti tvoj email.</span>
+      <span class="email-hidden">Ako upišeš svoju email adresu, moći ćeš ovo birati.</span>
+    </p>
   </div>
 
   <div class="form-actions">
