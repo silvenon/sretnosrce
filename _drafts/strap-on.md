@@ -1,0 +1,22 @@
+---
+layout: post
+title: Strap-on
+---
+
+> U vezi sam već godinu i pol. Mislim da mi je curi postalo dosadno i počela mi je pričati nečem što je meni nezamislivo. Ona bi htjela probati strapon na meni. Pričala mi je o frendici koja je to probala, al ne znam jel to istina. Probala me nagovorit da s prstom, ali nisam bio spreman na to. Previše me podsjeća na gej seks, a meni je to odvratno. Kakav bih ja bio muškarac ako bi joj to pustio? Koja su tvoja iskustva o tome?
+
+Sam nisam probao, ali sam dobro upoznat s postupkom. Taj se seksualni čin zove *[pegging]* i prilično normalan u SAD-u, ali tu se baš i ne priča o tome. Prva (i netočna) asocijacija koju si imao je vjerojatno "poniženje" ili "gay", ali tvoja cura to želi probati zato što ju pali, pa vam preporučujem da probate. Nema ništa gay u tome (nećeš odjednom promijeniti seksualnu orijentaciju), straight ljudi često prakticiraju analni seks. Ovo je isto, samo u obrnutom smjeru :grin: Razlog zašto taj čin uopće može pružiti užitak je zato što se iz tog smjera može stimulirati prostata.
+
+Ovdje za muškarce postoje 2 barijere:
+
+  1. asocirati anus s užitkom
+  2. naviknuti se biti penetriran
+
+Riješavaj ih vrlo postupno. Prvo sam, a onda s curom, jer ćeš se teško uz nju moći opustiti ako nemaš nikakvog iskustva da ti to uopće paše. To je isto kao kad cura koja nikad nije masturbirala zahtijeva od dečka da ju zadovolji; kako će kad ne zna ni ona sama? :astonished:
+
+Također, trebaš koristiti puno lubrikanta, ne želiš ozlijediti nešto tamo jer to može biti jako nezgodno. Kad si malo prepipao to mjesto, vrijeme je da probaš [butt plug]. (Ako ti je cura prava, onda će ti ga ona kupiti jer to radiš zbog nje :wink:) Vrlo ga polako stavi, uz puno lubrikanta, i vjerojatno će ti osjećaj isprva biti vrlo čudan. Nakon što je unutra neko vrijeme možeš pokušati masturbirati (sprijeda), pa bi trebao tijekom orgazma osjetiti dodatni užitak na području prostate.
+
+Ako ti se to svidjelo, počeo si to područje uspješno asocirati s užitkom i spreman si da daš curi da se igra, jer sad znaš da možeš dobiti užitak na taj način.
+
+[pegging]: https://en.wikipedia.org/w/index.php?title=Pegging_(sexual_practice)&oldid=672052550
+[butt plug]: https://en.wikipedia.org/wiki/Butt_plug
