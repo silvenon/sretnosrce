@@ -1,12 +1,12 @@
 ---
 layout: site
 title: Pitaj me nešto
-excerpt: Kako bih te mogao lakše osloviti, možeš si izmisliti pseudonim, kao "zbunjen", "znatiželjna", "maslačak" itd.
+excerpt: Možeš si izmisliti pseudonim ako želiš, kao Zbunjen, Znatiželjna, Maslačak itd.
 script: form
 ---
 
 # Pitaj me nešto
 
-Kako bih te mogao lakše osloviti, možeš si izmisliti pseudonim, kao "zbunjen", "znatiželjna", "maslačak" itd.
+Možeš si izmisliti pseudonim ako želiš, kao Zbunjen, Znatiželjna, Maslačak itd.
 
 {% include contact_form.html %}
