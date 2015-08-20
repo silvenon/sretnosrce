@@ -5,28 +5,20 @@
   if (form) {
     var email = form.querySelector('[type="email"]');
     var checkbox = form.querySelector('[type="checkbox"]');
-
     var hidden = form.querySelectorAll('.email-hidden');
     var visible = form.querySelectorAll('.email-visible');
+    var forEach = Array.prototype.forEach.call;
 
     function updateState(emailExists) {
       if (emailExists) {
         checkbox.removeAttribute('disabled');
-        Array.prototype.forEach.call(visible, function (el) {
-          el.style.display = '';
-        });
-        Array.prototype.forEach.call(hidden, function (el) {
-          el.style.display = 'none';
-        });
+        forEach(visible, function (el) { el.style.display = ''; });
+        forEach(hidden,  function (el) { el.style.display = 'none'; });
       } else {
         checkbox.checked = true;
         checkbox.setAttribute('disabled', 'disabled');
-        Array.prototype.forEach.call(visible, function (el) {
-          el.style.display = 'none';
-        });
-        Array.prototype.forEach.call(hidden, function (el) {
-          el.style.display = '';
-        });
+        forEach(visible, function (el) { el.style.display = 'none'; });
+        forEach(hidden,  function (el) { el.style.display = ''; });
       }
     }
 
