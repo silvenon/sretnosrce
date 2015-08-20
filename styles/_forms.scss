@@ -15,7 +15,9 @@
     border-radius: 0.25em;
 
     &:focus {
-      border-color: color(primary);
+      $color: shade(color(primary), 25%);
+      box-shadow: 0 0 0 0.25em rgba($color, 0.1);
+      border-color: rgba($color, 0.5);
       outline: 0;
     }
   }
