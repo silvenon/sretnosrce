@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Sokol me nije volio
 ---
 

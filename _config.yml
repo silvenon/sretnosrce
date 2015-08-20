@@ -29,4 +29,12 @@ defaults:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:
-      is_post: true # automatically set is_post=true for all posts
+      layout: post
+      is_post: true
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: drafts  # limit to drafts
+    values:
+      layout: post
+      is_post: true
