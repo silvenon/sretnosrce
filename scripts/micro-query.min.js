@@ -1,0 +1,2 @@
+//! uQuery v0.1.2 - MIT License
+(function(){for(var d=/([^&=]+)=?([^&]*)/g,b,c={},a=window.location.search||window.location.hash,a=a.substring(a.indexOf("?")+1,a.length);b=d.exec(a);)c[decodeURIComponent(b[1])]=decodeURIComponent(b[2]);window.uQuery=function(a){return c[a]}})();

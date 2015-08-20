@@ -77,6 +77,8 @@
       </div>
     </main>
 
+    <script src="{{ '/scripts/micro-query.min.js' | prepend: site.baseurl }}"></script>
+
     {% if page.script %}
     <script src="{{ '/scripts/' | append: page.script | append: '.js' | prepend: site.baseurl }}"></script>
     {% endif %}
