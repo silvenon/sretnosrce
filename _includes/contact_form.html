@@ -1,14 +1,14 @@
 <form class="form" action="http://formspree.io/matija.marohnic@gmail.com" method="post">
   <label class="form-label">
+    <span class="form-required">Pitanje</span>
+    <textarea class="form-control" name="message" rows="7" required></textarea>
+  </label>
+
+  <label class="form-label">
     <span class="form-optional">Email</span>
     <input class="form-control" name="email" type="email">
   </label>
   <p class="form-description">Nije obavezno.</p>
-
-  <label class="form-label">
-    <span class="form-required">Pitanje</span>
-    <textarea class="form-control" name="message" rows="7" required></textarea>
-  </label>
 
   <input type="hidden" name="_next" value="{{ '/hvala' | prepend: site.baseurl }}" />
 
