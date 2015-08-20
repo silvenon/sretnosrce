@@ -5,7 +5,12 @@
   var checkbox = form.querySelector('[type="checkbox"]');
   var hidden = form.querySelectorAll('.email-hidden');
   var visible = form.querySelectorAll('.email-visible');
-  var forEach = Array.prototype.forEach.call;
+
+  function forEach(elements, fn) {
+    for (var i = 0; i < elements.length; i++) {
+      fn(elements[i]);
+    }
+  }
 
   function updateState(emailExists) {
     if (emailExists) {
