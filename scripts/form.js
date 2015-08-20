@@ -9,8 +9,6 @@
     var hidden = form.querySelectorAll('.email-hidden');
     var visible = form.querySelectorAll('.email-visible');
 
-    console.log(hidden, visible);
-
     function updateState(emailExists) {
       if (emailExists) {
         checkbox.removeAttribute('disabled');
