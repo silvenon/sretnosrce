@@ -1,8 +1,12 @@
 .post {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
+
+  @media (min-width: breakpoint(small)) {
+    margin-bottom: 1em;
+  }
 
   & + & {
-    margin-top: 2em;
+    margin-top: 0.5em;
     border-top: 1px solid rgba(#000, 0.1);
   }
 
