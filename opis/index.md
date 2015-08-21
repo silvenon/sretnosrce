@@ -1,6 +1,7 @@
 ---
 layout: site
 title: Što je ovo?
+id: about
 excerpt: Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili podcasta pa bih htio podijeliti to znanje jer bih volio da sam neke stvari znao prije.
 ---
 
