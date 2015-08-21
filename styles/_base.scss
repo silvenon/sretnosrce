@@ -9,9 +9,13 @@ html {
 
 body {
   font-family: 'open sans', 'helvetica neue', helvetica, arial, sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 300;
   line-height: 1.75;
+
+  @media (min-width: breakpoint(small)) {
+    font-size: 18px;
+  }
 }
 
 .container {
@@ -24,7 +28,7 @@ body {
 }
 
 .main {
-  @media (min-width: breakpoint(small)) {
+  @media (min-width: breakpoint(medium)) {
     padding-bottom: 2em;
   }
 }

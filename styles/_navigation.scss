@@ -1,5 +1,5 @@
 .navigation {
-  font-size: 24px;
+  font-size: 1.25em;
 
   .btn {
     margin-left: 0.5em;
@@ -7,6 +7,8 @@
     padding-bottom: 0;
 
     .icon {
+      width: 0.9em;
+      height: 0.9em;
       position: relative;
       margin-left: 0.25em;
 
@@ -17,6 +19,7 @@
 
       &-arrow-right {
         bottom: 1px;
+        height: 1.789em;
       }
     }
   }
