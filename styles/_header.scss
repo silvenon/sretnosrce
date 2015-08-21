@@ -1,7 +1,7 @@
 @include keyframes(pulsate) {
-  0%    { @include transform(scale(0.75)); }
-  50%   { @include transform(scale(0.8)); }
-  100%  { @include transform(scale(0.75)); }
+  0%    { @include transform(scale(1)); }
+  50%   { @include transform(scale(0.95)); }
+  100%  { @include transform(scale(1)); }
 }
 
 .main {
@@ -17,19 +17,22 @@
   background: color(primary);
   color: #fff;
 
+  @media (min-width: breakpoint(navigation)) {
+    padding-bottom: 0.5em;
+  }
+
   @media (min-width: breakpoint(medium)) {
     position: fixed;
     z-index: 10;
     top: 0;
     left: 0;
     right: 0;
-    padding-top: 0;
   }
 
   .container {
     text-align: center;
 
-    @media (min-width: breakpoint(medium)) {
+    @media (min-width: breakpoint(navigation)) {
       @include display(flex);
       @include justify-content(space-between);
       @include align-items(center);
@@ -47,7 +50,7 @@
     font-weight: 400;
 
     @media (min-width: breakpoint(medium)) {
-      font-size: 3em;
+      font-size: 2.5em;
     }
 
     &,
@@ -59,27 +62,54 @@
 
     .icon {
       display: inline-block;
-      width: 32px;
-      height: 32px;
-      @include transform(scale(0.75));
+      width: 0.9em;
+      height: 0.9em;
+      margin: 0 0.1em;
       @include animation(pulsate 1s infinite);
-
-      @media (min-width: breakpoint(medium)) {
-        width: 64px;
-        height: 64px;
-      }
     }
   }
 
   .navigation {
-    .btn {
-      @media (max-width: breakpoint(small, max)) {
-        margin-top: 0.25em;
+    &-items {
+      @include display(flex);
+      @include flex-wrap(wrap);
+      @include align-items(center);
+      @include justify-content(center);
+    }
+
+    &-item {
+      + .navigation-item {
+        margin-left: 1em;
       }
 
-      @media (max-width: breakpoint(medium, max)) {
-        position: relative;
-        top: 0.5em;
+      &:last-child {
+        margin-left: 0;
+        width: 100%;
+
+        @media (min-width: breakpoint(navigation)) {
+          width: auto;
+          margin-left: 1em;
+        }
+      }
+
+      a:not(.btn) {
+        color: rgba(#fff, 0.75);
+      }
+
+      &.active {
+        a:not(.btn) {
+          color: #fff;
+        }
+
+        .btn {
+          background: #fff;
+        }
+      }
+    }
+
+    .btn {
+      @media (max-width: breakpoint(navigation, max)) {
+        margin-bottom: -0.5em;
         background: #fff;
         border: 2px solid color(primary);
         box-shadow: none;

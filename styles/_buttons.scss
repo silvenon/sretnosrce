@@ -63,8 +63,7 @@
       color: $color;
 
       &:hover,
-      &:focus,
-      &.active {
+      &:focus {
         background: #fff;
         color: $color;
       }
