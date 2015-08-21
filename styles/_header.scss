@@ -72,17 +72,6 @@
   }
 
   .navigation {
-    &-item {
-      &:not(.btn) {
-        display: block;
-        color: #fff;
-
-        @media (min-width: breakpoint(medium)) {
-          display: inline-block;
-        }
-      }
-    }
-
     .btn {
       @media (max-width: breakpoint(small, max)) {
         margin-top: 0.25em;
@@ -96,13 +85,5 @@
         box-shadow: none;
       }
     }
-  }
-
-  .facts {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    @include transform(translateY(100%));
   }
 }
