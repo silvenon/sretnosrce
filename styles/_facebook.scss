@@ -1,10 +1,13 @@
 .fb-page {
-  margin-top: 1em;
+  &-container {
+    display: none;
 
-  @media (min-width: breakpoint(small)) {
-    float: right;
-    width: 280px;
-    margin-top: 0;
-    margin-left: 1em;
+    @media (min-width: breakpoint(medium)) {
+      display: block;
+      float: right;
+      width: 280px;
+      margin-top: 0;
+      margin-left: 1em;
+    }
   }
 }
