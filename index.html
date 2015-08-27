@@ -1,8 +1,21 @@
 ---
 layout: site
 id: home
+script: facts
 redirect_from: /pitanja/
 ---
+
+<div class="facts">
+  {% for fact in site.data.facts %}
+    <blockquote class="fact">
+      <b>Zanimljivost</b>:
+      {{ fact.claim | markdownify }}
+      {% for source in fact.sources %}
+        <a target="_blank" href="{{ source }}"><sup>[{{ forloop.index }}]</sup></a>
+      {% endfor %}
+    </blockquote>
+  {% endfor %}
+</div>
 
 <div class="fb-page-container">
   <div

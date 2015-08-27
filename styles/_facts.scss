@@ -1,14 +1,31 @@
 .facts {
-  padding: 0.25em 0.75em;
-  background: rgba(#000, 0.65);
-  font-size: 14px;
-  color: #fff;
+  margin: 0.5em 0;
+  color: rgba(#000, 0.75);
 
-  @media (max-width: breakpoint(small, max)) {
-    display: none;
+  @media (min-width: breakpoint(medium)) {
+    margin-bottom: 1em;
   }
 
-  &-content {
-    margin-left: 0.25em;
+  b {
+    color: inherit;
   }
+
+  blockquote {
+    padding: 0.5em 0.75em;
+    border: 1px solid rgba(#000, 0.1);
+    border-radius: 0.25em;
+    box-shadow: 4px 5px rgba(#000, 0.025);
+    font-size: 14px;
+    font-style: normal;
+    color: inherit;
+  }
+
+  p {
+    display: inline;
+    margin: 0;
+  }
+}
+
+.fact {
+  display: none;
 }
