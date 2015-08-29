@@ -6,6 +6,11 @@
   }
 
   &-container {
+    width: 280px;
+    float: right;
+    margin-top: -0.5em;
+    margin-left: 1em;
+
     @media (max-width: breakpoint(medium, max)) {
       display: none;
     }

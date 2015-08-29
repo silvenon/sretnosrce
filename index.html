@@ -29,6 +29,24 @@ redirect_from: /pitanja/
       <div class="post-content">
         {{ post.excerpt }}
       </div>
+      <div class="fb-page-container">
+        <div
+          class="fb-page"
+          data-href="https://www.facebook.com/{{ site.fb_page }}"
+          data-small-header="true"
+          data-adapt-container-width="true"
+          data-hide-cover="true"
+          data-show-facepile="true"
+          data-show-posts="false">
+            <div class="fb-xfbml-parse-ignore">
+              <blockquote cite="https://www.facebook.com/pages/Sretno-Srce/132649877076108">
+                <a href="https://www.facebook.com/pages/Sretno-Srce/132649877076108">
+                  Sretno Srce
+                </a>
+              </blockquote>
+            </div>
+          </div>
+      </div>
       <a class="post-more btn btn-primary" href="{{ post.url }}">
         <span>Nastavi čitati</span>
         <svg class="icon" role="presentation" viewBox="0 0 1024 1024" width="16" height="16">
@@ -54,22 +72,3 @@ redirect_from: /pitanja/
   </article>
   {% endif %}
 {% endfor %}
-
-<div class="fb-page-container">
-  <div
-    class="fb-page"
-    data-href="https://www.facebook.com/{{ site.fb_page }}"
-    data-small-header="true"
-    data-adapt-container-width="true"
-    data-hide-cover="false"
-    data-show-facepile="true"
-    data-show-posts="false">
-      <div class="fb-xfbml-parse-ignore">
-        <blockquote cite="https://www.facebook.com/pages/Sretno-Srce/132649877076108">
-          <a href="https://www.facebook.com/pages/Sretno-Srce/132649877076108">
-            Sretno Srce
-          </a>
-        </blockquote>
-      </div>
-    </div>
-</div>
