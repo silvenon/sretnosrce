@@ -8,7 +8,7 @@ script: thanks
 
 Tvoje pitanje je poslano. Odgovorit ću ti u roku od par dana :wink:
 
-Odgovor ćeš dobiti na email. Možda ti prije toga pošaljem dodatno pitanje, ako mi nešto bude nejasno :grin:
+Odgovor ćeš dobiti na email. Možda ti prije toga pošaljem potpitanje, ako mi nešto bude nejasno :grin:
 
 Možeš na [početnoj] ili [Facebook] stranici čekati objavu odgovora.
 
