@@ -20,7 +20,7 @@ Primjer dobrog pitanja:
 >
 > Dečko i ja smo 3 godine u vezi, ali on se zadnjih par mjeseci ponaša čudno---odsutniji je, lošije je volje, ne javlja mi se više toliko... Pričali smo o tome i izbjegavao mi je reći u čemu je problem. Još uvijek je dobar, ne čini mi se da se ohladio prema meni, samo ga nešto muči, a ne želi mi reći što :/
 >
-> Imaš ideju? Zbunjena
+> Imaš ideju?
 
 Kad bolje razmislim, i na ovo pitanje bi mi bilo teško odgovoriti... Uglavnom, kužiš što hoću reći, što mi daš više informacija, to ćeš dobiti bolji odgovor :wink:
 
