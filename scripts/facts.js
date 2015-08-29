@@ -1,10 +1,10 @@
 (function() {
 
-  var facts = document.querySelectorAll('.fact');
+  var container = document.querySelector('.facts');
+  var facts = container.querySelectorAll('.fact');
   var fact = facts[Math.floor(Math.random() * facts.length)];
 
-  console.log(facts);
-
   fact.style.display = 'inline-block';
+  container.classList.remove('loaded');
 
 }());
