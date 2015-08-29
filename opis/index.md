@@ -2,6 +2,9 @@
 layout: site
 title: Što je ovo?
 id: about
+image: /images/bio.jpg
+image_width: 240
+image_height: 320
 excerpt: Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili podcasta pa bih htio podijeliti to znanje jer bih volio da sam neke stvari znao prije.
 ---
 
