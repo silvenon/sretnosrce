@@ -15,6 +15,7 @@
 .header {
   padding-top: 0.5em;
   background: color(primary);
+  box-shadow: 0 2px 1px rgba(#000, 0.2);
   color: #fff;
 
   @media (min-width: breakpoint(navigation)) {
