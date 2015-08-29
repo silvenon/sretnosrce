@@ -1,6 +1,9 @@
 .fb-page {
-  &-container {
-    display: none;
+  blockquote {
+    border-left: 0;
+    padding-left: 0;
+    font-style: normal;
+  }
 
     @media (min-width: breakpoint(medium)) {
       display: block;
