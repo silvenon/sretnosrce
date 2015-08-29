@@ -1,6 +1,7 @@
 (function() {
 
   var form = document.querySelector('.form');
+  var question = form.querySelector('textarea');
   var email = form.querySelector('[type="email"]');
   var checkbox = form.querySelector('[type="checkbox"]');
   var thanks = form.querySelector('[name="_next"]');
@@ -33,6 +34,18 @@
   thanksBase = thanks.value;
 
   updateState(false);
+
+  if (window.localStorage) {
+    question.value = localStorage.getItem('question');
+
+    form.addEventListener('keyup', function (event) {
+      localStorage.setItem('question', question.value);
+    });
+
+    form.addEventListener('submit', function () {
+      localStorage.removeItem('question');
+    });
+  }
 
   email.addEventListener('keyup', function () {
     updateState(!!email.value);
