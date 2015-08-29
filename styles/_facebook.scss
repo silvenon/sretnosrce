@@ -5,12 +5,9 @@
     font-style: normal;
   }
 
-    @media (min-width: breakpoint(medium)) {
-      display: block;
-      float: right;
-      width: 280px;
-      margin-top: 0;
-      margin-left: 1em;
+  &-container {
+    @media (max-width: breakpoint(medium, max)) {
+      display: none;
     }
   }
 }
