@@ -18,6 +18,26 @@ redirect_from: /pitanja/
 </div>
 
 {% for post in site.posts %}
+  {% if forloop.first %}
+    <article class="post">
+      <header class="post-header">
+        <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <time class="post-time" datetime="{{ post.date | date_to_xmlschema }}">
+          {{ post.date | date_to_string }}
+        </time>
+      </header>
+      <div class="post-content">
+        {{ post.excerpt }}
+      </div>
+      <a class="post-more btn btn-primary" href="{{ post.url }}">
+        <span>Nastavi čitati</span>
+        <svg class="icon" role="presentation" viewBox="0 0 1024 1024" width="16" height="16">
+          <title>Open</title>
+          <path fill="currentColor" d="M896 704v128h-768v-128h-128v256h1024v-256zM256 448h192v320h128v-320h192l-256-384z"></path>
+        </svg>
+      </a>
+    </article>
+  {% else %}
   <article class="post">
     <header class="post-header">
       <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
@@ -25,17 +45,14 @@ redirect_from: /pitanja/
         {{ post.date | date_to_string }}
       </time>
     </header>
-
     <div class="post-content">
       <blockquote>
-
-        {{ post.excerpt | strip_html | truncatewords: 100 | markdownify }}
-
+        {{ post.excerpt | strip_html | truncatewords: 40 | markdownify }}
       </blockquote>
     </div>
-
-    <a class="btn btn-sm btn-primary" href="{{ post.url }}">Puno pitanje i odgovor</a>
+    <a class="post-more" href="{{ post.url }}">Nastavi čitati</a>
   </article>
+  {% endif %}
 {% endfor %}
 
 <div class="fb-page-container">

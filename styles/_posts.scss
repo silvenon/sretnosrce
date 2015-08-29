@@ -7,10 +7,9 @@
 
   & + & {
     margin-top: 0.5em;
-    border-top: 1px solid rgba(#000, 0.1);
   }
 
-  &-header {
+  &.full &-header {
     margin-bottom: 1.5em;
   }
 
@@ -19,5 +18,16 @@
     margin-top: -0.25em;
     font-size: 14px;
     color: rgba(#000, 0.5);
+  }
+
+  &-more {
+    &.btn {
+      margin-top: 0;
+    }
+
+    &:not(.btn) {
+      position: relative;
+      bottom: 0.5em;
+    }
   }
 }
