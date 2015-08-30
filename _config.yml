@@ -15,6 +15,15 @@ twitter_username: silvenon
 gauges_id: 55c5e80592c6ac728500b314
 
 # Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - phantomjsdriver.log
+  - node_modules
+  - gulpfile.babel.js
+  - test
+  - CNAME
 port: 9000
 permalink: /pitanja/:title
 markdown: kramdown
