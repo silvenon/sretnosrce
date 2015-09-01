@@ -4,7 +4,7 @@
   var facts = container.querySelectorAll('.fact');
   var fact = facts[Math.floor(Math.random() * facts.length)];
 
-  fact.style.display = 'inline-block';
+  fact.classList.add('visible');
   container.classList.remove('loading');
 
 }());

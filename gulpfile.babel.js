@@ -22,7 +22,7 @@ gulp.task('webdriver', ['serve'], () => {
       desiredCapabilities: {
         browserName: 'phantomjs'
       },
-      slow: 200
+      slow: 500
     }));
 });
 
