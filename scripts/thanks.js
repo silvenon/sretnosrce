@@ -1,11 +1,14 @@
 (function() {
 
   var par = document.querySelectorAll('main p');
+  var parToRemove;
 
   if (uQuery('email') === 'true') {
-    par[par.length - 1].style.display = 'none';
+    parToRemove = par[par.length - 1];
   } else {
-    par[par.length - 2].style.display = 'none';
+    parToRemove = par[par.length - 2];
   };
+
+  parToRemove.parentNode.removeChild(parToRemove);
 
 }());
