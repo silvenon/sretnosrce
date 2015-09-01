@@ -12,5 +12,7 @@ Odgovor ćeš dobiti na email. Možda ti prije toga pošaljem potpitanje, ako mi
 
 Možeš na [početnoj] ili [Facebook] stranici čekati objavu odgovora.
 
+{% include back.html %}
+
 [početnoj]: http://sretnosrce.org/
 [facebook]: https://www.facebook.com/{{ site.fb_page }}
