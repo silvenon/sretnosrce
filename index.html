@@ -32,6 +32,26 @@ redirect_from: /pitanja/
             {{ post.excerpt | strip_html | truncatewords: 100 | markdownify }}
           </blockquote>
         </div>
+        <a class="post-more btn btn-primary" href="{{ post.url }}">
+          <span>Nastavi čitati</span>
+          <svg class="icon" role="presentation" viewBox="0 0 1024 1024" width="16" height="16">
+            <title>Open</title>
+            <path fill="currentColor" d="M896 704v128h-768v-128h-128v256h1024v-256zM256 448h192v320h128v-320h192l-256-384z"></path>
+          </svg>
+        </a>
+      </article>
+
+      <div class="row">
+        <div class="bloopers">
+          <p>Na neka pitanja, nažalost, nisam mogao odgovoriti (obično zbog premalo informacija). Ako dugo nisi dobio odgovor, pogledaj je li tvoje pitanje među njima.</p>
+          <a class="btn btn-sm btn-inverse-secondary" href="/blooperi">
+            <span>Neuspjela pitanja</span>
+            <svg class="icon" viewBox="0 0 1024 1024" width="16" height="16" role="presentation">
+              <title>Thumbs down</title>
+              <path fill="currentColor" d="M32 416c0 32.916 17.956 61.954 45.308 79.248-8.444 14.292-13.308 30.952-13.308 48.752 0 53.020 42.98 96 96 96h187.808c-22.456 80.91-33.808 164.592-33.808 250 0 73.888 60.112 134 134 134 73.886 0 134-60.112 134-134 0-103.972 38.722-183.95 115.090-237.71 21-14.784 44.742-27.486 70.91-38.066v89.776h256v-640h-256v62.998c-59.89-3.932-88.968-18.922-117.19-33.494-28.088-14.506-57.132-29.504-106.81-29.504h-320c-53.020 0-96 42.98-96 96 0 12.498 2.414 24.426 6.76 35.376-40.77 11.086-70.76 48.342-70.76 92.624 0 17.8 4.864 34.46 13.308 48.752-27.352 17.294-45.308 46.332-45.308 79.248zM928 128c17.672 0 32 14.326 32 32s-14.328 32-32 32-32-14.326-32-32 14.328-32 32-32zM136 384h56v-64h-32c-17.644 0-32-14.356-32-32s14.356-32 32-32h64v-64c-17.644 0-32-14.356-32-32s14.356-32 32-32h320c34.128 0 52.298 9.382 77.446 22.37 31.748 16.392 70.386 36.32 146.554 40.728v342.222c-42.936 14.428-81.428 33.43-114.658 56.824-96.392 67.856-147.342 171.544-147.342 299.856 0 31.982-26.020 58-58 58s-58-26.018-58-58c0-85.66 12.414-169.412 36.96-250 6.198-23.018 12.066-45.826 16.024-64h-282.984c-17.644 0-32-14.356-32-32s14.356-32 32-32h32v-64h-56c-21.682 0-40-14.654-40-32s18.318-32 40-32z"></path>
+            </svg>
+          </a>
+        </div>
         <div class="fb-page-container">
           <div
             class="fb-page"
@@ -50,24 +70,6 @@ redirect_from: /pitanja/
               </div>
             </div>
         </div>
-        <a class="post-more btn btn-primary" href="{{ post.url }}">
-          <span>Nastavi čitati</span>
-          <svg class="icon" role="presentation" viewBox="0 0 1024 1024" width="16" height="16">
-            <title>Open</title>
-            <path fill="currentColor" d="M896 704v128h-768v-128h-128v256h1024v-256zM256 448h192v320h128v-320h192l-256-384z"></path>
-          </svg>
-        </a>
-      </article>
-
-      <div class="bloopers">
-        <p>Na neka pitanja, nažalost, nisam mogao odgovoriti (obično zbog premalo informacija). Ako dugo nisi dobio odgovor, pogledaj je li tvoje pitanje među njima.</p>
-        <a class="btn btn-sm btn-inverse-secondary" href="/blooperi">
-          <span>Neuspjela pitanja</span>
-          <svg class="icon" viewBox="0 0 1024 1024" width="16" height="16" role="presentation">
-            <title>Thumbs down</title>
-            <path fill="currentColor" d="M32 416c0 32.916 17.956 61.954 45.308 79.248-8.444 14.292-13.308 30.952-13.308 48.752 0 53.020 42.98 96 96 96h187.808c-22.456 80.91-33.808 164.592-33.808 250 0 73.888 60.112 134 134 134 73.886 0 134-60.112 134-134 0-103.972 38.722-183.95 115.090-237.71 21-14.784 44.742-27.486 70.91-38.066v89.776h256v-640h-256v62.998c-59.89-3.932-88.968-18.922-117.19-33.494-28.088-14.506-57.132-29.504-106.81-29.504h-320c-53.020 0-96 42.98-96 96 0 12.498 2.414 24.426 6.76 35.376-40.77 11.086-70.76 48.342-70.76 92.624 0 17.8 4.864 34.46 13.308 48.752-27.352 17.294-45.308 46.332-45.308 79.248zM928 128c17.672 0 32 14.326 32 32s-14.328 32-32 32-32-14.326-32-32 14.328-32 32-32zM136 384h56v-64h-32c-17.644 0-32-14.356-32-32s14.356-32 32-32h64v-64c-17.644 0-32-14.356-32-32s14.356-32 32-32h320c34.128 0 52.298 9.382 77.446 22.37 31.748 16.392 70.386 36.32 146.554 40.728v342.222c-42.936 14.428-81.428 33.43-114.658 56.824-96.392 67.856-147.342 171.544-147.342 299.856 0 31.982-26.020 58-58 58s-58-26.018-58-58c0-85.66 12.414-169.412 36.96-250 6.198-23.018 12.066-45.826 16.024-64h-282.984c-17.644 0-32-14.356-32-32s14.356-32 32-32h32v-64h-56c-21.682 0-40-14.654-40-32s18.318-32 40-32z"></path>
-          </svg>
-        </a>
       </div>
     {% else %}
     <article class="post">
