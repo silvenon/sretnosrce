@@ -2,6 +2,7 @@
 title: Gledamo se
 is_blooper: true
 status: info
+permalink: /blooperi/gledamo-se
 ---
 
 > Caoo
