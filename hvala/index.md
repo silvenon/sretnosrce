@@ -1,12 +1,12 @@
 ---
 layout: site
-excerpt: Tvoje pitanje je poslano. Odgovorit ću ti unutar par dana.
+excerpt: Tvoje pitanje je poslano. Odgovorit ću ti čim stignem.
 script: thanks
 ---
 
 # Hvala
 
-Tvoje pitanje je poslano. Odgovorit ću ti u roku od par dana :wink:
+Tvoje pitanje je poslano. Odgovorit ću ti čim stignem :wink:
 
 Odgovor ćeš dobiti na email. Možda ti prije toga pošaljem potpitanje, ako mi nešto bude nejasno :grin:
 
