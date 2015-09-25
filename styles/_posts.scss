@@ -17,6 +17,47 @@
     margin-bottom: 1.5em;
   }
 
+  &.blooper {
+    margin-top: 1.5em;
+  }
+
+  &.blooper.full & {
+    &-header {
+      margin-bottom: 1em;
+    }
+  }
+
+  &.blooper & {
+    &-title,
+    &-status {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &-title {
+      margin-top: 0;
+
+      a {
+        color: color(secondary);
+
+        &:hover,
+        &:focus {
+          color: shade(color(secondary), 15%);
+        }
+      }
+    }
+
+    &-status {
+      margin-left: 0.5em;
+      padding: 0.25em 0.75em;
+      background: rgba(#000, 0.1);
+      border-radius: 0.25em;
+      font-size: 12px;
+      font-weight: 600;
+      color: #000;
+    }
+  }
+
   &-time {
     display: block;
     margin-top: -0.25em;

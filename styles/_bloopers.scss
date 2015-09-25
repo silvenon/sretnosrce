@@ -1,0 +1,23 @@
+.bloopers {
+  display: inline-block;
+  margin-bottom: 1em;
+  padding: 0.25em 1em;
+  margin-left: -1rem;
+  background: rgba(color(secondary), 0.05);
+  border: 1px solid rgba(color(secondary), 0.1);
+  border-radius: 0 0.25em 0.25em 0;
+  color: color(secondary);
+
+  @media (min-width: breakpoint(medium)) {
+    margin-left: 0;
+    border-radius: 0.25em;
+  }
+
+  p {
+    margin-bottom: 0;
+
+    @media (min-width: breakpoint(medium)) {
+      max-width: 28em;
+    }
+  }
+}

@@ -109,6 +109,15 @@
     }
 
     .btn {
+      background: rgba(#fff, 0.8);
+      border: 0;
+      box-shadow: 2px 2px rgba(#000, 0.25);
+
+      &:hover,
+      &:focus {
+        background: #fff;
+      }
+
       @media (max-width: breakpoint(navigation, max)) {
         margin-bottom: -0.5em;
         background: #fff;

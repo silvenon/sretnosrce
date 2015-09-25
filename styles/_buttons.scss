@@ -7,6 +7,7 @@
   border-radius: 0.25em;
   text-decoration: none;
   cursor: pointer;
+  white-space: nowrap;
 
   &:hover,
   &:focus {
@@ -39,6 +40,10 @@
     }
   }
 
+  &-sm .icon {
+    bottom: 1px;
+  }
+
   @each $type, $color in $colors {
     &-#{$type} {
       background: $color;
@@ -58,14 +63,15 @@
 
   @each $type, $color in $colors {
     &-inverse-#{$type} {
-      background: rgba(#fff, 0.8);
-      box-shadow: 2px 2px 0 rgba(#000, 0.25);
+      background: #fff;
+      border: 1px solid rgba($color, 0.5);
+      box-shadow: 3px 3px rgba($color, 0.1);
       color: $color;
 
       &:hover,
       &:focus {
-        background: #fff;
         color: $color;
+        border-color: currentColor;
       }
 
       &[disabled] {

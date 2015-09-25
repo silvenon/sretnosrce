@@ -1,0 +1,30 @@
+---
+layout: site
+title: Blooperi
+id: bloopers
+---
+
+<p>Na ova pitanja nisam mogao odgovoriti zato što sadrže premalo informacija, a autori mi nisu ostavili svoju email adresu (što nije obavezno, ali je korisno u ovom slučaju) da ih pitam za dodatne informacije. Ovako autori ovih pitanja mogu saznati zašto im nisam odgovorio, pa mogu ponovo postaviti pitanje, ovaj put s više informacija.</p>
+<p>Ako tvoje pitanje nije na ovom popisu, ali također nisi dobio odgovor, znači da još radim na njemu, nisam zaboravio :wink:</p>
+
+<hr/>
+
+{% for post in site.posts %}
+  {% if post.is_blooper %}
+  <article class="post blooper">
+    <header class="post-header">
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <div class="post-status">
+        {% if post.status == 'info' %}
+        Nedovoljno informacija
+        {% endif %}
+      </div>
+    </header>
+    <div class="post-content">
+      <blockquote>
+        {{ post.excerpt | strip_html | truncatewords: 40 | markdownify }}
+      </blockquote>
+    </div>
+  </article>
+  {% endif %}
+{% endfor %}
