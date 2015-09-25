@@ -42,8 +42,8 @@ defaults:
       is_post: true
   -
     scope:
-      path: ""      # empty string for all files
-      type: drafts  # limit to drafts
+      path: ""
+      type: drafts
     values:
       layout: post
       is_post: true
