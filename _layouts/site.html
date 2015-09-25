@@ -27,8 +27,8 @@
     <meta property="article:author" content="https://www.facebook.com/{{ site.fb_username }}">
     <meta property="article:publisher" content="https://www.facebook.com/{{ site.fb_page }}">
     {% else %}
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}">
     {% endif %}
     <!-- load the web font asynchronously with Web Font Loader -->
     <!-- https://github.com/typekit/webfontloader -->
