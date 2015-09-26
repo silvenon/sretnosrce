@@ -1,4 +1,5 @@
 ---
+id: thanks
 excerpt: Tvoje pitanje je poslano. Odgovorit ću ti čim stignem.
 script: thanks
 ---
