@@ -23,6 +23,7 @@ exclude:
   - node_modules
   - gulpfile.babel.js
   - test
+  - logo.sketch
   - CNAME
 port: 9000
 permalink: /pitanja/:title
