@@ -36,6 +36,12 @@ sass:
 defaults:
   -
     scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+  -
+    scope:
       path: ""      # empty string for all files
       type: posts   # limit to posts
     values:

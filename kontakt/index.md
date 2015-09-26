@@ -1,5 +1,4 @@
 ---
-layout: site
 title: Pitaj me nešto
 id: contact
 excerpt: Dobro opiši problem, čitanje između redaka mi nije jača strana :D

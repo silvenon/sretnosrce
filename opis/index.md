@@ -1,5 +1,4 @@
 ---
-layout: site
 title: Što je ovo?
 id: about
 image: /images/bio.jpg
