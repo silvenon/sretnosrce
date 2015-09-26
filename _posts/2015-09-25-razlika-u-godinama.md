@@ -23,7 +23,7 @@ Kažeš da se nikad nisi tako osjećala, ali s obzirom da nisi još imala puno l
 
 Imaš 18 godina, mlada si, ali ne toliko da nisi sposobna donijeti zrelu odluku i biti oprezna. Mislim da je u redu da istražiš čega to ima između vas, samo se nađite na javnom mjestu i reci svojoj prijateljici gdje ćeš biti i kada, a nakon izlaska joj se javi. Ovo je mjera opreza koju je dobro prakticirati i inače, zato ti ju sada najtoplije preporučujem.
 
-A što se tiče godina, dobra formula za računanje minimuma godina koje tvoja simpatija mora imati je:
+A što se tiče godina, [formula](https://xkcd.com/314/) za računanje minimuma godina koje tvoja simpatija mora imati je:
 
 ```
 godine : 2 + 7
