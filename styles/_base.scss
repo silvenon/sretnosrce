@@ -35,7 +35,7 @@ body {
 
 .row {
   @include display(flex);
-  @include align-items(center);
+  @include align-items(flex-start);
   margin-bottom: 1em;
 }
 
