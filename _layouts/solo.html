@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | escape | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | prepend: site.baseurl }}">
+    <meta property="fb:admins" content="{{ site.fb_id }}">
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | escape }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.image %}
+    <meta property="og:image:url" content="{{ page.image | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image:width" content="{{ page.image_width }}">
+    <meta property="og:image:height" content="{{ page.image_height }}">
+    {% else %}
+    <meta property="og:image:url" content="{{ '/og.png' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    {% endif %}
+    {% if page.is_post %}
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url | append: '/' }}">
+    <link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url | append: '/' }}">
+    <meta property="og:type" content="article">
+    <meta property="article:author" content="https://www.facebook.com/{{ site.fb_username }}">
+    <meta property="article:publisher" content="https://www.facebook.com/{{ site.fb_page }}">
+    {% else %}
+    <meta property="og:url" content="{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | remove:'index.html' | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    <!-- load the web font asynchronously with Web Font Loader -->
+    <!-- https://github.com/typekit/webfontloader -->
+    <script>
+      WebFontConfig = {
+        google: { families: [ 'Unica+One::latin,latin-ext', 'Open+Sans:300,300italic,600:latin,latin-ext' ] }
+      };
+      (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+          '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+      })();
+    </script>
+    <link rel="stylesheet" href="{{ '/styles/main.css' | prepend: site.baseurl }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
+  </head>
+  <body>
+    {% if page.fb_sdk %}
+    <div id="fb-root"></div>
+    <script>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=796500317088780";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    {% endif %}
+
+    {{ content }}
+
+    <script src="{{ '/scripts/micro-query.min.js' | prepend: site.baseurl }}"></script>
+
+    {% if page.script %}
+    <script src="{{ '/scripts/' | append: page.script | append: '.js' | prepend: site.baseurl }}"></script>
+    {% endif %}
+
+    <script type="text/javascript">
+      var _gauges = _gauges || [];
+      (function() {
+        var t   = document.createElement('script');
+        t.type  = 'text/javascript';
+        t.async = true;
+        t.id    = 'gauges-tracker';
+        t.setAttribute('data-site-id', '{{ site.gauges_id }}');
+        t.setAttribute('data-track-path', 'https://track.gaug.es/track.gif');
+        t.src = 'https://track.gaug.es/track.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(t, s);
+      })();
+    </script>
+  </body>
+</html>
