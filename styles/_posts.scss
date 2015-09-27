@@ -7,18 +7,14 @@
 
   & + & {
     margin-top: 0.5em;
-  }
 
-  &-back.btn.btn {
-    margin-bottom: 0;
+    &.blooper {
+      margin-top: 1.5em;
+    }
   }
 
   &.full &-header {
     margin-bottom: 1.5em;
-  }
-
-  &.blooper {
-    margin-top: 1.5em;
   }
 
   &.blooper.full & {
@@ -35,8 +31,6 @@
     }
 
     &-title {
-      margin-top: 0;
-
       a {
         color: color(secondary);
 
@@ -55,6 +49,12 @@
       font-size: 12px;
       font-weight: 600;
       color: #000;
+    }
+  }
+
+  &-title {
+    .text & {
+      margin-top: 0;
     }
   }
 
