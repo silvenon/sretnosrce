@@ -1,14 +1,11 @@
 ---
 id: thanks
-excerpt: Tvoje pitanje je poslano. Odgovorit ću ti čim stignem.
-script: thanks
+excerpt: Tvoje pitanje je poslano. Odgovaram obično unutar tjedan dana, osim ako vidim da je hitno.
 ---
 
 # Hvala
 
-Tvoje pitanje je poslano. Odgovorit ću ti čim stignem :wink:
-
-Odgovor ćeš dobiti na email. Možda ti prije toga pošaljem potpitanje, ako mi nešto bude nejasno :grin:
+{{ page.excerpt }} :wink:
 
 Možeš na [početnoj] ili [Facebook] stranici čekati objavu odgovora.
 

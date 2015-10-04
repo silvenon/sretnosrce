@@ -6,24 +6,14 @@
     <textarea class="form-control" name="message" rows="7" required></textarea>
   </label>
 
-  <label class="form-label">
-    <span class="form-optional">Email</span>
-    <input class="form-control" name="email" type="email">
-  </label>
-  <p class="form-description">Nije obavezno.</p>
-
   <input type="hidden" name="_next" value="{{ '/hvala' | prepend: site.baseurl }}" />
 
   <input type="text" name="_gotcha" hidden>
 
   <div class="form-checkbox">
     <label class="form-label">
-      <p><input name="public" type="checkbox" checked> “Pristajem na to da objaviš pitanje na ovoj web stranici.”</p>
+      <p><input type="checkbox" checked> “Pristajem na to da objaviš pitanje i odgovor na ovoj web stranici.”</p>
     </label>
-    <p class="form-description">
-      <span class="email-visible">Bez brige, neću objaviti tvoj email.</span>
-      <span class="email-hidden">Ako upišeš svoju email adresu, moći ćeš ovo birati.</span>
-    </p>
   </div>
 
   <div class="form-actions">

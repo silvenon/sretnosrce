@@ -19,7 +19,7 @@
   }
 
   &[disabled] {
-    opacity: 0.2;
+    opacity: 0.5;
   }
 
   &-sm {
@@ -56,7 +56,7 @@
       }
 
       &[disabled] {
-        background: $color;
+        background: scale-color($color, $saturation: -50%);
       }
     }
   }
