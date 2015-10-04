@@ -1,4 +1,4 @@
-.not-found {
+.message {
   @include display(flex);
   @include align-items(center);
   @include justify-content(center);
@@ -19,6 +19,15 @@
     max-width: 30em;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  a {
+    color: rgba(#fff, 0.7);
+
+    &:hover,
+    &:focus {
+      color: #fff;
+    }
   }
 
   .btn {
