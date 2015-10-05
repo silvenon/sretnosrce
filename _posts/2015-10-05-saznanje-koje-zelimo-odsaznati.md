@@ -1,5 +1,6 @@
 ---
-title: Bondage porn
+title: Saznanje o partneru koje ne možemo više odsaznati
+redirect_from: /pitanja/bondage-porn/
 ---
 
 > Hej,
