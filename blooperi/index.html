@@ -17,7 +17,7 @@ image_height: 300
   {% if post.is_blooper %}
   <article class="post blooper">
     <header class="post-header">
-      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <h2 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></h2>
       <div class="post-status">
         {% if post.status == 'info' %}
         Nedovoljno informacija

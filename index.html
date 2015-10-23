@@ -24,7 +24,7 @@ redirect_from: /pitanja/
     {% if forloop.first %}
       <article class="post">
         <header class="post-header">
-          <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+          <h2 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></h2>
           <time class="post-time" datetime="{{ post.date | date_to_xmlschema }}">
             {{ post.date | date_to_string }}
           </time>
