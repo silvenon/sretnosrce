@@ -23,9 +23,12 @@ layout: default
     </time>
     {% else %}
     <div class="post-status">
-      {% if page.status == 'info' %}
+      {% case post.status == 'info' %}
+      {% when 'info' %}
       Nedovoljno informacija
-      {% endif %}
+      {% when 'off-topic' %}
+      Nevezano
+      {% endcase %}
     </div>
     {% endunless %}
   </header>

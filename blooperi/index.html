@@ -19,9 +19,12 @@ image_height: 300
     <header class="post-header">
       <h2 class="post-title"><a href="{{ post.url }}">{{ post.title | markdownify | strip_html }}</a></h2>
       <div class="post-status">
-        {% if post.status == 'info' %}
+        {% case post.status == 'info' %}
+        {% when 'info' %}
         Nedovoljno informacija
-        {% endif %}
+        {% when 'off-topic' %}
+        Nevezano
+        {% endcase %}
       </div>
     </header>
     <div class="post-content">
