@@ -18,10 +18,6 @@ gauges_id: 55c5e80592c6ac728500b314
 exclude:
   - Gemfile
   - Gemfile.lock
-  - package.json
-  - phantomjsdriver.log
-  - node_modules
-  - gulpfile.babel.js
   - test
   - logo.sketch
   - CNAME
