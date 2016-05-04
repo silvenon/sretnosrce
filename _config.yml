@@ -53,7 +53,7 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /pitanja/:title
+      permalink: /pitanja/:title/
       is_post: true
   -
     scope:
@@ -61,5 +61,5 @@ defaults:
       type: drafts
     values:
       layout: post
-      permalink: /pitanja/:title
+      permalink: /pitanja/:title/
       is_post: true
