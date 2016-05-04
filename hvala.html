@@ -1,7 +1,7 @@
 ---
 layout: message
 title: Pitanje je poslano
-excerpt: Čestitam na hrabrosti! Odgovaram obično unutar tjedan dana, osim ako vidim da je hitno. Možeš na početnoj ili Facebook stranici čekati objavu odgovora.
+description: Čestitam na hrabrosti! Odgovaram obično unutar tjedan dana, osim ako vidim da je hitno. Možeš na početnoj ili Facebook stranici čekati objavu odgovora.
 id: thanks
 ---
 
@@ -13,9 +13,9 @@ id: thanks
 <h1>{{ page.title }}</h1>
 
 <p>Čestitam na hrabrosti! Odgovaram obično unutar tjedan dana, osim ako vidim da je hitno :wink:</p>
-<p>Možeš na <a href="{{ '/' | prepend: site.baseurl }}">početnoj</a> ili <a target="_blank" href="https://www.facebook.com/{{ site.fb_page }}">Facebook</a> stranici čekati objavu odgovora.</p>
+<p>Možeš na <a href="{{ site.baseurl }}/">početnoj</a> ili <a target="_blank" href="https://www.facebook.com/{{ site.facebook.publisher }}">Facebook</a> stranici čekati objavu odgovora.</p>
 
-<a class="btn btn-inverse-primary" href="{{ '/' | prepend: site.baseurl }}">
+<a class="btn btn-inverse-primary" href="{{ site.baseurl }}/">
   <svg class="icon" style="bottom: 1px" role="presentation" viewBox="0 0 1024 1024" width="16" height="16">
     <title>Arrow left</title>
     <path fill="currentColor" d="M32 512l480 480v-288h512v-384h-512v-288z"></path>

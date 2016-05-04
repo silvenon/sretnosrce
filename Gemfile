@@ -1,6 +1,5 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-gem 'github-pages'
-gem 'jekyll-redirect-from'
-gem 'jemoji'
-gem 'html-proofer';
+gem "github-pages", group: :jekyll_plugins
+gem "html-proofer"
+gem "rake"

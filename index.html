@@ -1,17 +1,22 @@
 ---
 id: home
+title: ""
 fb_sdk: true
 script: facts
+image:
+  path: /images/og.png
+  width: 300
+  height: 300
 redirect_from: /pitanja/
 ---
 
 <h1>Pitanja</h1>
 
 <div class="facts loading">
-  {% for fact in site.data.facts %}
+  {% for fact in site.facts %}
     <blockquote class="fact">
       <b>Zanimljivost</b>:
-      {{ fact.claim | markdownify }}
+      {{ fact.output }}
       {% for source in fact.sources %}
         <a target="_blank" href="{{ source }}"><sup>[{{ forloop.index }}]</sup></a>
       {% endfor %}
@@ -57,7 +62,7 @@ redirect_from: /pitanja/
         <div class="fb-page-container">
           <div
             class="fb-page"
-            data-href="https://www.facebook.com/{{ site.fb_page }}"
+            data-href="https://www.facebook.com/{{ site.facebook.publisher }}"
             data-small-header="true"
             data-adapt-container-width="true"
             data-hide-cover="true"

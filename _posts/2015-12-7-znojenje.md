@@ -1,5 +1,6 @@
 ---
 title: Znojenje
+description: Imam problem što se ponekad dosta znojim na radnom mjestu. Najviše kada sam jako fokusirana ili se živciram oko nečega. Tada da ne bi hiperventilirala, pokušavam se oblačiti slojevito.
 is_blooper: true
 status: off-topic
 permalink: /blooperi/znojenje

@@ -1,5 +1,6 @@
 ---
 title: Dopisivanje sa simpatijom
+description: Kako da zapocnem dopisivanje sa osobom koja mi se svidja?
 ---
 
 > Kako da zapocnem dopisivanje sa osobom koja mi se svidja?

@@ -1,10 +1,11 @@
 ---
 title: Što je ovo?
 id: about
-image: /images/bio.jpg
-image_width: 240
-image_height: 320
-excerpt: Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili podcasta pa bih htio podijeliti to znanje jer bih volio da sam neke stvari znao prije.
+image:
+  path: /images/bio.jpg
+  width: 240
+  height: 320
+description: Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili podcasta pa bih htio podijeliti to znanje jer bih volio da sam neke stvari znao prije.
 ---
 
 # Što je ovo?
@@ -15,7 +16,7 @@ Neki ljudi vole rješavati logičke zagonetke ili sudoku, a ja ljubavne i seksua
 
 Usluga je, naravno, besplatna. To je moj eksperiment :grin:
 
-<img class="img" src="/images/bio.jpg" width="240" height="320" alt="slika mene kako čitam knjigu">
+![slika mene kako čitam knjigu "What do women want?"]({{ site.baseurl }}/images/bio.jpg){:.img width="240" height="320"}
 
 ## Ponešto o meni
 
@@ -39,7 +40,6 @@ Računaj na sljedeće:
 
   - dat ću ti konkretan, praktičan savjet,
   - neću te osuđivati,
-  - poštovat ću tvoju privatnost, razumijem da nije lako povjeriti se nekome,
   - sagledat ću tvoj problem s više strana,
   - potrudit ću se naći rješenje gdje su svi sretni.
 
@@ -47,8 +47,8 @@ Računaj na sljedeće:
 
 [podcasta]: https://en.wikipedia.org/wiki/Podcast
 [unity]: http://unity.hr/
-[facebooku]: https://www.facebook.com/{{ site.fb_username }}
-[twitteru]: https://twitter.com/{{ site.twitter_username }}
+[facebooku]: https://www.facebook.com/matija.marohnic
+[twitteru]: https://twitter.com/silvenon
 [Hrvatski jezični portal]: http://hjp.novi-liber.hr/index.php?show=search_by_id&id=dlZmXhI%3D
 [Sex at Dawn]: http://amzn.com/0061707813
 [What Do Women Want?]: http://amzn.com/0061906093

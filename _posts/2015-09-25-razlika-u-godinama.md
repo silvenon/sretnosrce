@@ -1,5 +1,6 @@
 ---
 title: Razlika u godinama
+description: Imam 18, i ne tako bogato ljubavno iskustvo. Nedavno sam upoznala jednog vrlo simpaticnog decka koji je od mene stariji 12 godina. Da. Nista se do sada nije desilo, upravo zbog toga sto verujem da i on i ja mislimo kako je razlika u godinama velika.
 ---
 
 > Zdravo :)

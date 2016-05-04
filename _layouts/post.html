@@ -3,9 +3,9 @@ layout: default
 ---
 
 {% unless page.is_blooper %}
-<a class="post-back btn btn-sm btn-primary" href="{{ '/' | prepend: site.baseurl }}">
+<a class="post-back btn btn-sm btn-primary" href="{{ site.baseurl }}/">
 {% else %}
-<a class="post-back btn btn-sm btn-secondary" href="{{ '/blooperi' | prepend: site.baseurl }}">
+<a class="post-back btn btn-sm btn-secondary" href="{{ site.baseurl }}/blooperi">
 {% endunless %}
   <svg class="icon" style="bottom: 1px" role="presentation" viewBox="0 0 1024 1024" width="16" height="16">
     <title>Arrow left</title>
@@ -23,7 +23,7 @@ layout: default
     </time>
     {% else %}
     <div class="post-status">
-      {% case post.status == 'info' %}
+      {% case page.status == 'info' %}
       {% when 'info' %}
       Nedovoljno informacija
       {% when 'off-topic' %}
@@ -46,7 +46,7 @@ layout: default
     var disqus_shortname = 'sretnosrce';
     var disqus_identifier = '{{ page.id }}';
     var disqus_title = '{{ page.title }}';
-    var disqus_url = '{{ page.url | prepend: site.baseurl | prepend: site.url }}';
+    var disqus_url = '{{ site.url }}{{ site.baseurl }}{{ page.url }}';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {

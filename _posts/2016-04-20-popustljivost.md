@@ -1,5 +1,6 @@
 ---
 title: Popustljivost
+description: Nedavno sam izašla sam s jednim dečkom koji me žarko htio vidjeti jer sam mu se svidjela. Iako mi je bio malo naporan (ne volim baš fizičke kontakte s nepoznatim osobama, osobito u javnosti, a tepanje prezirem), ostavio je dojam drage osobe.
 ---
 
 > Nedavno sam izašla sam s jednim dečkom koji me žarko htio vidjeti jer sam mu se svidjela. Iako mi je bio malo naporan (ne volim baš fizičke kontakte s nepoznatim osobama, osobito u javnosti, a tepanje prezirem), ostavio je dojam drage osobe.

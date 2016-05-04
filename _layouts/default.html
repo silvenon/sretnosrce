@@ -4,24 +4,24 @@ layout: solo
 
 <header class="header">
   <div class="container">
-    <a class="header-title" href="{{ '/' | prepend: site.baseurl }}">
+    <a class="header-title" href="{{ site.baseurl }}/">
       <span>Sretno</span><svg class="icon icon-heart" viewbox="0 0 1024 1024"><title>Heart</title><path fill="currentColor" d="M752 64c-103.912 0-194.2 58.276-240 143.92-45.802-85.644-136.090-143.92-240-143.92-150.222 0-272 121.78-272 272 0 368 512 624 512 624s512-256 512-624c0-150.22-121.778-272-272-272z"></path></svg><span>Srce</span>
     </a>
 
     <nav class="navigation">
       <ol class="navigation-items">
         <li class="navigation-item {% if page.id == 'home' %}active{% endif %}">
-          <a href="{{ '/' | prepend: site.baseurl }}">
+          <a href="{{ site.baseurl }}/">
             <span>Početna</span>
           </a>
         </li>
         <li class="navigation-item {% if page.id == 'about' %}active{% endif %}">
-          <a href="{{ '/opis' | prepend: site.baseurl }}">
+          <a href="{{ site.baseurl }}/opis">
             <span>Što je ovo?</span>
           </a>
         </li>
         <li class="navigation-item {% if page.id == 'contact' %}active{% endif %}">
-          <a class="btn btn-inverse-primary" href="{{ '/kontakt' | prepend: site.baseurl }}">
+          <a class="btn btn-inverse-primary" href="{{ site.baseurl }}/kontakt">
             <span>Pitaj me nešto</span>
             <svg class="icon icon-arrow-right" viewbox="0 0 640 1024" role="presentation">
               <title>Arrow right</title>

@@ -1,5 +1,6 @@
 ---
 title: Kako zatražiti oralni seks?
+description: Imama već neko vrijeme curu. Već smo imali seksualni odnos i sve je super. Osim sto mi još nikada nije pružila oralni sex.
 ---
 
 > Ej bok
