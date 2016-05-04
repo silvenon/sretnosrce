@@ -3,7 +3,7 @@ title: Gledamo se
 description: Ovako pa pre par meseci gledala sam nekog decka,svidja mi se. On je tek dad saznao to. Kada izadjem napolju sa drugaricama uvek njega sretnemo,i on me gleda.
 is_blooper: true
 status: info
-permalink: /blooperi/gledamo-se
+permalink: /blooperi/:title/
 ---
 
 > Caoo
