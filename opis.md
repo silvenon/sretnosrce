@@ -46,7 +46,6 @@ Računaj na sljedeće:
 Što više informacija imam, to ću moći dati bolji savjet.
 
 [podcasta]: https://en.wikipedia.org/wiki/Podcast
-[unity]: http://unity.hr/
 [facebooku]: https://www.facebook.com/matija.marohnic
 [twitteru]: https://twitter.com/silvenon
 [Hrvatski jezični portal]: http://hjp.novi-liber.hr/index.php?show=search_by_id&id=dlZmXhI%3D
