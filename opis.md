@@ -46,7 +46,7 @@ Računaj na sljedeće:
 Što više informacija imam, to ću moći dati bolji savjet.
 
 [podcasta]: https://en.wikipedia.org/wiki/Podcast
-[facebooku]: https://www.facebook.com/matija.marohnic
+[facebooku]: https://www.facebook.com/silvenon
 [twitteru]: https://twitter.com/silvenon
 [Hrvatski jezični portal]: http://hjp.novi-liber.hr/index.php?show=search_by_id&id=dlZmXhI%3D
 [Sex at Dawn]: http://amzn.com/0061707813
