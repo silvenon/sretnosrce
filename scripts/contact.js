@@ -18,6 +18,11 @@
     });
   }
 
+  // initially unchecked, which makes sure that
+  // the agreement is deliberate
+  checkbox.checked = false;
+  button.setAttribute('disabled', 'disabled');
+
   checkbox.addEventListener('change', function () {
     if (checkbox.checked) {
       button.removeAttribute('disabled');
