@@ -18,10 +18,10 @@ Primjer dobrog pitanja:
 
 > Bok :)
 >
-> Dečko i ja smo 3 godine u vezi, ali on se zadnjih par mjeseci ponaša čudno---odsutniji je, lošije je volje, ne javlja mi se više toliko... Pričali smo o tome i izbjegavao mi je reći u čemu je problem. Još uvijek je dobar, ne čini mi se da se ohladio prema meni, samo ga nešto muči, a ne želi mi reći što :/
+> Dečko i ja smo 3 godine u vezi, ali on se zadnjih par mjeseci ponaša čudno kad god moja sestra dođe kod nas---uvijek smisli nekakav izgovor da ode. Kad sam ga pitala zašto nikad ne ostane, on kaže da je svaki put imao neki dogovor, ali ne vjerujem mu.
 >
-> Imaš ideju?
+> Imaš li ideju zašto se tako ponaša?
 
-Kad bolje razmislim, i na ovo pitanje bi mi bilo teško odgovoriti... Uglavnom, kužiš što hoću reći, što mi daš više informacija, to ćeš dobiti bolji odgovor :wink:
+Što mi daš više informacija, to ćeš dobiti bolji odgovor.
 
 {% include contact_form.html %}
