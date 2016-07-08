@@ -24,15 +24,15 @@ Zovem se Matija, završio sam Filozofski fakultet, a sada radim kao web dizajner
 
 ## Moji savjeti
 
-Definicija savjeta je:
+Otkud meni pravo davati savjete? Tko si ja mislim da jesam? Pa, definicija savjeta je:
 
 > preporuka što i kako treba raditi ili kako postupiti u određenom slučaju
 >
 > —[Hrvatski jezični portal]
 
-Dakle, svatko je kvalificiran dati savjete. Ipak, moje se znanje ne temelji samo na iskustvu, čitao sam poznate knjige o ljudskoj seksualnosti kao [Sex at Dawn] i [What Do Women Want?] te već nekoliko godina slušam podcast [Savage Lovecast] (koji me inspirirao da pokrenem ovaj projekt), gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
+Dakle, svatko je kvalificiran dati savjete :tada: Ipak, moje se znanje ne temelji samo na iskustvu, puno sam čitao o ljudskoj seksualnosti i vezama kao [Sex at Dawn], [What Do Women Want?], [More Than Two] itd. te već nekoliko godina slušam podcast [Savage Lovecast] (koji me inspirirao da pokrenem ovaj projekt), gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
 
-Vrlo sam posvećen isticanju onoga što nas kultura krivo uči o ljubavnim odnosima. Mislim da je fizički dio veze **jednako** bitan kao i emocionalni. Odgojeni smo s idejom da "seks nije toliko bitan" i da se na njemu "uvijek može poraditi", negirajući da postoji nekompatibilnost i da je ponekad najbolje potražiti drugu osobu s kojom ćeš biti sretniji uz puno manje truda.
+Vrlo sam posvećen isticanju svega što nas kultura krivo uči o ljubavnim odnosima. Mislim da je fizički dio veze **jednako** bitan kao i emocionalni. Odgojeni smo s idejom da "seks nije toliko bitan" i da se na njemu "uvijek može poraditi", negirajući da postoji nekompatibilnost i da je ponekad najbolje potražiti drugu osobu s kojom ćeš biti sretniji uz puno manje truda.
 
 ## Što možeš očekivati
 
@@ -51,4 +51,5 @@ Računaj na sljedeće:
 [Hrvatski jezični portal]: http://hjp.novi-liber.hr/index.php?show=search_by_id&id=dlZmXhI%3D
 [Sex at Dawn]: http://amzn.com/0061707813
 [What Do Women Want?]: http://amzn.com/0061906093
+[More Than Two]: https://www.morethantwo.com/
 [Savage Lovecast]: http://www.savagelovecast.com
