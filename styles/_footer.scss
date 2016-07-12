@@ -1,0 +1,15 @@
+.footer {
+  font-size: 0.9em;
+  text-align: center;
+
+  .container {
+    max-width: 24em;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    border-top: 2px solid rgba(#000, 0.1);
+  }
+
+  p {
+    opacity: 0.65;
+  }
+}

@@ -28,6 +28,8 @@ body {
 }
 
 .main {
+  padding-bottom: 1em;
+
   @media (min-width: breakpoint(medium)) {
     padding-bottom: 2em;
   }
