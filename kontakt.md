@@ -8,6 +8,8 @@ redirect_from: /pitaj/
 
 # Pitaj me nešto
 
+{% include contact_form.html %}
+
 Dobro opiši problem, čitanje između redaka mi nije jača strana :grin:
 
 Primjer lošeg pitanja:
@@ -22,6 +24,10 @@ Primjer dobrog pitanja:
 >
 > Imaš li ideju zašto se tako ponaša?
 
-Što mi daš više informacija, to ćeš dobiti bolji odgovor.
+Što mi daš više informacija, to ćeš dobiti bolji odgovor. Također, možeš računati na sljedeće:
 
-{% include contact_form.html %}
+  - dobrodošao/la si neovisno o seksualnoj orijentaciji, rodnom identitetu i sl.
+  - dat ću ti konkretan, praktičan savjet,
+  - neću te osuđivati,
+  - sagledat ću tvoj problem s više strana,
+  - potrudit ću se naći rješenje gdje su svi sretni.
