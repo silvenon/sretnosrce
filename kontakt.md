@@ -8,6 +8,8 @@ redirect_from: /pitaj/
 
 # Pitaj me nešto
 
+Unatoč tome što mnogi kažu, nema nikakvog razloga za sram kad pitamo za ljubavni savjet, kao ni kad pitamo za smjer. Oni koji pitaju su vrlo hrabri i doista žele riješiti problem. Isto kao kad radimo bilo što drugo, npr. pišemo životopis, dobro nam dođe da još netko drugi baci pogled.
+
 {% include contact_form.html %}
 
 Dobro opiši problem, čitanje između redaka mi nije jača strana :grin:
@@ -16,7 +18,7 @@ Primjer lošeg pitanja:
 
 > ej... moj dečko se ponaša čudno... trebam li se brinuti??? pozz
 
-Primjer dobrog pitanja:
+Primjer boljeg pitanja:
 
 > Bok :)
 >
@@ -24,7 +26,7 @@ Primjer dobrog pitanja:
 >
 > Imaš li ideju zašto se tako ponaša?
 
-Što mi daš više informacija, to ćeš dobiti bolji odgovor. Također, možeš računati na sljedeće:
+Što mi daš više informacija, to ćeš dobiti bolji odgovor, i računaj na sljedeće:
 
   - dobrodošao/la si neovisno o seksualnoj orijentaciji, rodnom identitetu i sl.
   - dat ću ti konkretan, praktičan savjet,
