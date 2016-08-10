@@ -1,6 +1,8 @@
 ---
 title: Prekid ≠ neuspjeh
 description: Imala sam tj. mislila sam da imam savršenu vezu u kojoj sam voljela i bila voljena. Bio mi je sve, pričali smo o zarukama i braku, no na kraju sve je palo u vodu.
+question?: true
+redirect_from: /pitanja/prekid-nije-neuspjeh/
 ---
 
 > Pozdrav :)

@@ -1,6 +1,8 @@
 ---
 title: Roditelji ne odobravaju
 description: U vezi sam sa deckom godinu i tri meseca, oboje imamo 17 [godina]. Savrsena veza, bez zabrana i sa ljubomorom u granicama normale. Njegovi roditelji na mene gledaju kao na svoje dete, ali moji roditelji njega jos uvek nisu upoznali.
+question?: true
+redirect_from: /pitanja/roditelji-ne-odobravaju/
 ---
 
 > U vezi sam sa deckom godinu i tri meseca, oboje imamo 17 [godina]. Savrsena veza, bez zabrana i sa ljubomorom u granicama normale. Njegovi roditelji na mene gledaju kao na svoje dete, ali moji roditelji njega jos uvek nisu upoznali. Naime, kada je mama imala 15, a tata 21-22 oni su poceli svoju vezu. Posle 5 godina mama je zatrudnela, udala se za njega i morala da napusti faks. Predpodstavljam da ona ne zeli da se meni desi isto, iako moj tata nju cuva kao malo vode na dlanu i voli vise od sebe. Ja sa njima nemam otvoren odnos i na zalost decko je taj koji me poznaje bolje od svih. Oslonac, podrska i ponos. Kada sam pre mesec dana izrazila zelju da ga dovedem kod kuce i upoznam bar sa mamom ona se usprotivila. Znaju da imam dugu vezu sa njim, pa ipak ne zele da pricaju o tome, a i kada se zapocne ta tema najcesce dodje do rasprave. Medjutim ne dozvoljavaju mi da odlazim kod njega kuci, ali oni to nikako ne mogu da zabrane. Vec godinu dana bez njihovog znanja odlazim kod njega. Samo sto se stvara nepoverenje u mom odnosu sa roditeljima. Jednostavno mislim da ce morati da prihvate tu cinjenicu da je on neko ko mene postuje, voli i cini srecnom, pa cak i da sam spremna da okrenem njima ledja i pobegnem u njegov zagrljaj. Jer je on taj koji je uvek bio tu za mene, da brise suze, da ljubi da prodje. Zahvalna sam i njemu i njegovoj porodici na svemu

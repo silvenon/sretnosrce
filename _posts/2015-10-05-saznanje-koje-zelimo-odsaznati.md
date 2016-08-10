@@ -1,7 +1,10 @@
 ---
 title: Saznanje o partneru koje ne možemo više odsaznati
 description: U sretnoj sam vezi s dečkom već 2,5 godine, ali sam nedavno slučajno otkrila nešto što me malo uznemirilo i nisam sigurna kako postupiti u vezi s time.
-redirect_from: /pitanja/bondage-porn/
+question?: true
+redirect_from:
+  - /pitanja/bondage-porn/
+  - /pitanja/saznanje-koje-zelimo-odsaznati
 ---
 
 > Hej,

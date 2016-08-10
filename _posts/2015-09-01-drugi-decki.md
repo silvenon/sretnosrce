@@ -1,6 +1,8 @@
 ---
 title: Drugi dečki
 description: Četiri sam godine u vezi s dečkom, dobar je prema meni, i kad je loše i kad je dobro, pun je razumijevanja. No u posljednje vrijeme primjećujem da mi se počinju sviđati drugi dečki, ambiciozniji, sigurniji u sebe, fizički privlačniji.
+question?: true
+redirect_from: /pitanja/drugi-decki/
 ---
 
 > Hej,

@@ -1,6 +1,8 @@
 ---
 title: Dopisivanje sa simpatijom
 description: Kako da zapocnem dopisivanje sa osobom koja mi se svidja?
+question?: true
+redirect_from: /pitanja/dopisivanje-sa-simpatijom/
 ---
 
 > Kako da zapocnem dopisivanje sa osobom koja mi se svidja?

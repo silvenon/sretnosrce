@@ -1,6 +1,8 @@
 ---
 title: Kava s bivšom
 description: Za koji dan idem sa bivšom ljubavi na kavu. Bili smo vise godina zajedno. Imali smo miran prekid. Kako da se postavim i kako da se ponašam tijekom te kave?
+question?: true
+redirect_from: /pitanja/kava-s-bivsom/
 ---
 
 > Zdravo.

@@ -60,13 +60,11 @@ defaults:
       type: posts
     values:
       layout: post
-      permalink: /pitanja/:title/
-      is_post: true
+      permalink: /blog/:title/
   -
     scope:
       path: ""
       type: drafts
     values:
       layout: post
-      permalink: /pitanja/:title/
-      is_post: true
+      permalink: /blog/:title/

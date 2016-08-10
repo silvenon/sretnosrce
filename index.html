@@ -34,9 +34,13 @@ redirect_from: /pitanja/
         </time>
       </header>
       <div class="post-content">
-        <blockquote>
+        {% if post.question? %}
+          <blockquote>
+            {{ post.excerpt | strip_html | truncatewords: 100 | markdownify }}
+          </blockquote>
+        {% else %}
           {{ post.excerpt | strip_html | truncatewords: 100 | markdownify }}
-        </blockquote>
+        {% endif %}
       </div>
       <a class="post-more btn btn-primary" href="{{ post.url }}">
         <span>Nastavi čitati</span>
@@ -86,9 +90,13 @@ redirect_from: /pitanja/
         </time>
       </header>
       <div class="post-content">
-        <blockquote>
+        {% if post.question? %}
+          <blockquote class="handwriting">
+            {{ post.excerpt | strip_html | truncatewords: 40 | markdownify }}
+          </blockquote>
+        {% else %}
           {{ post.excerpt | strip_html | truncatewords: 40 | markdownify }}
-        </blockquote>
+        {% endif %}
       </div>
       <a class="post-more" href="{{ post.url }}">Nastavi čitati</a>
     </article>
