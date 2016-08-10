@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <meta property="og:locale" content="hr_HR">
+    {% if page.date %}
+    <meta name="author" content="Matija Marohnić">
+    <meta property="article:author" content="{{ site.author.facebook }}">
+    {% endif %}
     {% feed_meta %}
     {% include fonts.html %}
     <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
