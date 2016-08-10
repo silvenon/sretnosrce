@@ -1,7 +1,7 @@
 title: Sretno Srce
 description: Ako te muči neki ljubavni ili seksualni problem, možda ti mogu dati neki koristan savjet. Ljubav komplicirana i ponekad nam treba pomoć.
 baseurl: ""
-url: https://sretnosrce.org
+url: https://www.sretnosrce.org
 author:
   name: Matija Marohnić
   picture: /images/matija.jpg
@@ -26,7 +26,7 @@ social:
   links:
     - https://www.facebook.com/srcesretno/
 github:
-  url: https://sretnosrce.org
+  url: https://www.sretnosrce.org
 gauges_id: 55c5e80592c6ac728500b314
 
 exclude:
