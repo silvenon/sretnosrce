@@ -1,14 +1,17 @@
 ---
 title: Što je ovo?
-id: about
+id: faq
 image:
   path: /images/bio.jpg
   width: 240
   height: 320
 description: Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili podcasta pa bih htio podijeliti to znanje jer bih volio da sam neke stvari znao prije.
+redirect_from: /opis/
 ---
 
-# Što je ovo?
+# Često postavljena pitanja
+
+## Što je ovo?
 
 Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem iskustva, knjiga, članaka ili [podcasta] pa bih htio podijeliti to znanje jer bih volio da sam neke stvari znao prije. Dakle, ako imaš neki ljubavni problem, slobodno se javi klikom na gumb gore desno, rado ću pomoći.
 
@@ -16,17 +19,13 @@ Neki ljudi vole rješavati logičke zagonetke ili sudoku, a ja ljubavne i seksua
 
 Usluga je, naravno, besplatna. To je moj eksperiment :grin:
 
-![slika mene kako čitam knjigu "What do Women Want?"]({{ site.baseurl }}/images/bio.jpg){:.img width="240" height="320"}
+## A tko si ti?
 
-## Ponešto o meni
+Zovem se Matija. Pišem puno na [Facebooku] i [Twitteru] o ljubavi, kodiranju, seksu, feminizmu, umjetnosti, seksizmu, gay pravima itd. Ako me želiš pratiti, bolje na Facebooku jer sam na Twitteru uglavnom geeky i pišem o kodiranju :sweat_smile:
 
-Zovem se Matija, završio sam Filozofski fakultet, a sada radim kao web dizajner. Pišem puno na [Facebooku] i [Twitteru] o ljubavi, kodiranju, seksu, feminizmu, umjetnosti, seksizmu, gay pravima itd. Ako me želiš pratiti, bolje na Facebooku jer sam na Twitteru uglavnom geeky i pišem o kodiranju :sweat_smile:
+## Ne, ne, tko ti **misliš** da jesi da daješ savjete?
 
-<br class="clear" />
-
-## Moji savjeti
-
-Otkud meni pravo davati savjete? Tko si ja mislim da jesam? Pa, definicija savjeta je:
+Nisam završio psihologiju niti ništa takvo, međutim, definicija savjeta je:
 
 > preporuka što i kako treba raditi ili kako postupiti u određenom slučaju
 >
@@ -41,9 +40,13 @@ Dakle, svatko je kvalificiran dati savjete :tada: Ipak, moje se znanje ne temelj
 
 te već nekoliko godina slušam podcast [Savage Lovecast] (koji me inspirirao da pokrenem ovaj projekt), gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
 
-Vrlo sam posvećen isticanju svega što nas kultura krivo uči o ljubavnim odnosima. Mislim da je fizički dio veze **jednako** bitan kao i emocionalni. Odgojeni smo s idejom da "seks nije toliko bitan" i da se na njemu "uvijek može poraditi", negirajući da postoji nekompatibilnost i da je ponekad najbolje potražiti drugu osobu s kojom ćeš biti sretniji uz puno manje truda.
+## Što ako sljedeći tvoj savjet netko napravi neku glupost?
 
-Btw, iako sam veliki pobornik [nemonogamije][non-monogamy] (toliko da sam čak otvorio i [Facebook grupu][fb-nemonogamija]), neću ju olako preporučivati jer mi nije cilj nametati svoje stavove, nego riješiti problem. Npr. ako znaš za sebe da puno varaš i ne znaš kako riješiti taj problem, možda ću ti preporučiti da nastaviš biti s drugim partnerima (ako to želiš), ali uz znanje i pristanak svih partnera. Međutim, ako se ustručavaš reći svojem partneru što voliš u krevetu, pa radije tu potrebu zadovoljavaš s drugima (bez znanja tvojeg partnera) i ta vas laž udaljava, preporučit ću ti da radije komuniciraš sa svojim partnerom o tome, ako bi najradije s njime to htio raditi.
+Kod dijeljenja *savjeta* podrazumjeva se da ga osoba primi sa zrnom soli, isto kao i sve drugo u životu. Kada bismo samo slijepo slušali sve što nam drugi kažu, ljubav bi nam bila najmanji problem :wink:
+
+## Znam ja tebe, ti ćeš mi samo prodavati priče o nemonogamiji!
+
+Oni koji me poznaju znaju da sam veliki pobornik [nemonogamije][non-monogamy] (toliko da sam čak otvorio i [Facebook grupu][fb-nemonogamija]). Ipak, neću ju olako preporučivati jer mi nije cilj nametati svoje stavove, nego riješiti problem. Npr. ako znaš za sebe da puno varaš i ne znaš kako riješiti taj problem, možda ću ti preporučiti da nastaviš biti s drugim partnerima (ako to želiš), ali uz znanje i pristanak svih partnera. Međutim, ako se ustručavaš reći svojem partneru što voliš u krevetu, pa radije tu potrebu zadovoljavaš s drugima (bez znanja tvojeg partnera) i ta vas laž udaljava, preporučit ću ti da radije komuniciraš sa svojim partnerom o tome, ako bi najradije s njime to htio raditi.
 
 [podcasta]: https://en.wikipedia.org/wiki/Podcast
 [facebooku]: https://www.facebook.com/silvenon
