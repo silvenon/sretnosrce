@@ -1,5 +1,5 @@
 ---
-title: Što je ovo?
+title: Česta pitanja
 id: faq
 image:
   path: /images/bio.jpg
@@ -9,7 +9,7 @@ description: Puno sam naučio o vezama u zadnjih nekoliko godina, bilo putem isk
 redirect_from: /opis/
 ---
 
-# Često postavljena pitanja
+# Česta pitanja
 
 ## Što je ovo?
 
@@ -25,28 +25,28 @@ Zovem se Matija. Pišem puno na [Facebooku] i [Twitteru] o ljubavi, kodiranju, s
 
 ## Ne, ne, tko ti **misliš** da jesi da daješ savjete?
 
-Nisam završio psihologiju niti ništa takvo, međutim, definicija savjeta je:
+Nisam završio psihologiju niti išta slično. Međutim, definicija savjeta je:
 
 > preporuka što i kako treba raditi ili kako postupiti u određenom slučaju
 >
 > —[Hrvatski jezični portal]
 
-Dakle, svatko je kvalificiran dati savjete :tada: Ipak, moje se znanje ne temelji samo na iskustvu, puno sam naučio o ljudskoj seksualnosti i vezama iz knjiga poput:
+Dakle, svatko je kvalificiran davati savjete :tada: Ipak, moje se znanje ne temelji samo na iskustvu, puno sam naučio o ljudskoj seksualnosti i vezama iz knjiga poput:
 
   - [Sex at Dawn: How We Mate, Why We Stray, and What It Means for Modern Relationships][sex-at-dawn],
   - [What Do Women Want?: Adventures in the Science of Female Desire][what-do-women-want],
   - [The Ethical Slut: A Practical Guide to Polyamory, Open Relationships & Other Adventures][the-ethical-slut],
-  - [More Than Two: A Practical Guide to Ethical Polyamory][more-than-two]
+  - [More Than Two: A Practical Guide to Ethical Polyamory][more-than-two].
 
-te već nekoliko godina slušam podcast [Savage Lovecast] (koji me inspirirao da pokrenem ovaj projekt), gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
+Isto tako, već nekoliko godina slušam podcast [Savage Lovecast] (koji me inspirirao da pokrenem ovaj projekt), gdje često razni stručnjaci govore o istraživanjima na području ljudske seksualnosti.
 
-## Što ako sljedeći tvoj savjet netko napravi neku glupost?
+## Što ako zbog tvojeg savjeta netko napravi neku glupost?
 
-Kod dijeljenja *savjeta* podrazumjeva se da ga osoba primi sa zrnom soli, isto kao i sve drugo u životu. Kada bismo samo slijepo slušali sve što nam drugi kažu, ljubav bi nam bila najmanji problem :wink:
+Kod dijeljenja *savjeta* podrazumijeva se da ga osoba primi sa zrnom soli, isto kao i sve drugo u životu. Kada bismo samo slijepo slušali sve što nam drugi kažu, ljubav bi nam bila najmanji problem :wink:
 
 ## Znam ja tebe, ti ćeš mi samo prodavati priče o nemonogamiji!
 
-Oni koji me poznaju znaju da sam veliki pobornik [nemonogamije][non-monogamy] (toliko da sam čak otvorio i [Facebook grupu][fb-nemonogamija]). Ipak, neću ju olako preporučivati jer mi nije cilj nametati svoje stavove, nego riješiti problem. Npr. ako znaš za sebe da puno varaš i ne znaš kako riješiti taj problem, možda ću ti preporučiti da nastaviš biti s drugim partnerima (ako to želiš), ali uz znanje i pristanak svih partnera. Međutim, ako se ustručavaš reći svojem partneru što voliš u krevetu, pa radije tu potrebu zadovoljavaš s drugima (bez znanja tvojeg partnera) i ta vas laž udaljava, preporučit ću ti da radije komuniciraš sa svojim partnerom o tome, ako bi najradije s njime to htio raditi.
+Oni koji me poznaju, znaju da sam veliki pobornik [nemonogamije][non-monogamy] (toliko da sam čak otvorio i [Facebook grupu][fb-nemonogamija]). Ipak, neću je olako preporučivati jer mi nije cilj nametati svoje stavove, nego riješiti problem. Npr. ako znaš za sebe da puno varaš i ne znaš kako riješiti taj problem, možda ću ti preporučiti da nastaviš biti s drugim partnerima (ako to želiš), ali uz znanje i pristanak svih partnera. Međutim, ako se ustručavaš reći svojem partneru što voliš u krevetu, pa radije tu potrebu zadovoljavaš s drugima (bez znanja tvojeg partnera) i ta vas laž udaljava, preporučit ću ti da radije komuniciraš sa svojim partnerom o tome, ako bi najradije s njime to htio raditi.
 
 [podcasta]: https://en.wikipedia.org/wiki/Podcast
 [facebooku]: https://www.facebook.com/silvenon

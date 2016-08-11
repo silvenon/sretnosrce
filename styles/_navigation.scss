@@ -22,18 +22,4 @@
       }
     }
   }
-
-  .visible-mobile {
-    @media (min-width: breakpoint(medium)) {
-      display: none;
-    }
-  }
-
-  .hidden-mobile {
-    display: none;
-
-    @media (min-width: breakpoint(medium)) {
-      display: inline;
-    }
-  }
 }
