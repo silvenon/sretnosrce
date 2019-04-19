@@ -8,7 +8,7 @@ author:
   facebook: silvenon
   twitter: silvenon
 
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-seo-tag
